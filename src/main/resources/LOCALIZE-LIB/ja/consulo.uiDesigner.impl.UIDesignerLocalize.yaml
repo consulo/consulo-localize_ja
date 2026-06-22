@@ -1,0 +1,8 @@
+column.value:
+    text: 値
+tooltip.press.accelerator:
+    text: クリックするか、{0}を押します。
+command.set.property.value:
+    text: プロパティ値の設定
+command.delete.selection:
+    text: 選択を削除

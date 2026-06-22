@@ -1,0 +1,6 @@
+create.directory.command:
+    text: ディレクトリの作成
+destination.package:
+    text: 'パッケージ作成先(&D):'
+dialog.create.class.package.chooser.title:
+    text: パッケージ作成先の選択

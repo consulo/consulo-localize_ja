@@ -1,0 +1,24 @@
+catch.without.try:
+    text: '''試し''なしの ''キャッチ'''
+create.class.text:
+    text: クラス{0}を作成
+create.interface.text:
+    text: インターフェース{0}を作成
+duplicate.class:
+    text: 重複するクラス： '' {0} ''
+else.without.if:
+    text: '''else''を除いて ''if'''
+expression.expected:
+    text: 表現が期待される
+finally.without.try:
+    text: '''finally''を ''try''なしで'
+illegal.escape.character.in.string.literal:
+    text: 文字列リテラルの不正なエスケープ文字
+qualified.new.of.static.class:
+    text: 静的クラスの修飾された新しい
+recursive.constructor.invocation:
+    text: 再帰的コンストラクタ呼び出し
+static.declaration.in.inner.class:
+    text: 内部クラスは静的宣言を持つことはできません
+unknown.class:
+    text: 不明なクラス： '' {0} ''

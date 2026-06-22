@@ -1,0 +1,50 @@
+button.configure:
+    text: 設定(&C)...
+error.report.to.jetbrains.action:
+    text: JetBrains へのレポート
+module.toggle.excluded.action:
+    text: 除外
+module.toggle.excluded.action.description:
+    text: モジュールからのディレクトリのインクルード/除外
+module.paths.excluded.group:
+    text: 除外されたフォルダ
+module.paths.unmark.tests.tooltip:
+    text: テストのマークを解除する
+module.paths.unmark.source.tooltip:
+    text: ソースのマークを解除
+module.paths.remove.tooltip:
+    text: 削除する
+module.paths.include.excluded.tooltip:
+    text: 含める
+title.new.from.template:
+    text: 新規 {0}
+title.cannot.create.file:
+    text: ファイルを作成できません
+command.create.file.from.template:
+    text: テンプレートからファイル作成
+progress.deleting:
+    text: 削除しています
+error.please.enter.a.file.name:
+    text: ファイル名を入力してください
+error.unable.to.parse.template.message:
+    text: "テンプレート \"{0}\" の解析ができません\nエラー メッセージ : {1}"
+tab.chooser.project:
+    text: プロジェクト
+tab.chooser.search.by.name:
+    text: 名前で検索
+choose.test.method.dialog.title:
+    text: テスト メソッドの選択
+choose.test.class.dialog.title:
+    text: テスト クラスの選択
+set.class.name.message:
+    text: クラス名を最初に設定
+cannot.browse.method.dialog.title:
+    text: メソッドを参照できません
+class.does.not.exists.error.message:
+    text: クラス {0} は存在しません
+action.rerun:
+    text: 再実行
+exception.text.unknown.error:
+    text: 不明なエラー
+command.name.open.error.message.view:
+    text: メッセージ ビューを開く

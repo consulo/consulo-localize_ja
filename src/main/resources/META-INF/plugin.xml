@@ -1,0 +1,9 @@
+<consulo-plugin url="https://github.com/consulo/consulo-localize_ja">
+	<id>consulo.localize_ja</id>
+	<name>Localize (ja)</name>
+	<version>SNAPSHOT</version>
+	<category>Localization</category>
+	<tags>
+		<tag>localization</tag>
+	</tags>
+</consulo-plugin>

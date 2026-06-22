@@ -1,0 +1,4 @@
+expression.expected:
+    text: 表現が期待される
+button.configure:
+    text: 設定(&C)...

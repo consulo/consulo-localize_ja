@@ -1,0 +1,40 @@
+formatter.align.properties.none:
+    text: 整列しない
+formatter.align.properties.on.colon:
+    text: コロン
+formatter.align.properties.on.value:
+    text: 値
+inspection.compliance.msg.bad.token:
+    text: JSON標準ではこのようなトークンを許可していません
+inspection.compliance.msg.comments:
+    text: JSON標準ではコメントは許可されていません。 JSMinなどのツールを使用して、解析前にコメントを削除します。
+inspection.compliance.msg.illegal.property.key:
+    text: JSON標準では、二重引用符付きの文字列のみをプロパティキーとして使用できます
+inspection.compliance.msg.multiple.top.level.values:
+    text: JSON標準では1つのトップレベル値のみが許可されます
+inspection.compliance.msg.single.quoted.strings:
+    text: JSON標準では単一引用符付きの文字列を使用できません
+inspection.compliance.msg.trailing.comma:
+    text: JSON標準では末尾にコンマを使用できません
+inspection.compliance.name:
+    text: JSON標準への準拠
+inspection.compliance.option.comments:
+    text: コメントについての警告
+inspection.compliance.option.multiple.top.level.values:
+    text: 複数のトップレベル値について警告
+inspection.duplicate.keys.msg.duplicate.keys:
+    text: オブジェクトに重複したキー "{0}" が含まれています
+inspection.duplicate.keys.name:
+    text: オブジェクトリテラルの重複キー
+json.schema.add.schema.chooser.title:
+    text: JSONスキーマファイルの選択
+quickfix.add.double.quotes.desc:
+    text: 二重引用符で囲む
+surround.with.object.literal.desc:
+    text: オブジェクトリテラル
+syntax.error.illegal.escape.sequence:
+    text: 不正なエスケープシーケンス
+syntax.error.illegal.floating.point.literal:
+    text: 不正な浮動小数点リテラル
+syntax.error.illegal.unicode.escape.sequence:
+    text: 不正なユニコードエスケープシーケンス

@@ -1,0 +1,42 @@
+all.invocations.and.remove.the.method:
+    text: すべての呼び出し。メソッドを削除(&A)
+changeSignature.no.type.for.exception:
+    text: 例外の型を指定する
+changeSignature.refactoring.name:
+    text: シグネチャの変更
+changeSignature.wrong.type.for.exception:
+    text: '不正な型 : 例外の ''''{0}'''''
+changing.signature.of.0:
+    text: '{0} のシグネチャを変更しています'
+column.name.default.value:
+    text: デフォルト値
+column.name.name:
+    text: 名前
+declare.final:
+    text: final の宣言(&F)
+extract.method.title:
+    text: メソッドの抽出
+inline.method.border.title:
+    text: インライン化
+inline.method.title:
+    text: メソッドのインライン化
+inline.variable.title:
+    text: 変数のインライン化
+parameters.border.title:
+    text: パラメータ
+press.escape.to.remove.the.highlighting:
+    text: Esc キーで強調表示をクリアします
+signature.preview.border.title:
+    text: シグネチャ プレビュー
+this.invocation.only.and.keep.the.method:
+    text: この呼び出しのみ。メソッドを保持(&T)
+variable.of.type:
+    text: '型の変数(&T):'
+visibility.border.title:
+    text: 可視性
+visibility.private:
+    text: プライベート(&V)
+visibility.protected:
+    text: プロテクト(&O)
+visibility.public:
+    text: パブリック(&B)

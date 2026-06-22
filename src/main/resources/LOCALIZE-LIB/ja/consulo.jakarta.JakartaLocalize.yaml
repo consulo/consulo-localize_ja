@@ -1,0 +1,10 @@
+button.add:
+    text: 追加(&A)...
+button.configure:
+    text: 設定(&C)...
+button.delete:
+    text: 削除
+button.edit:
+    text: 編集(&E)...
+button.help:
+    text: ヘルプ
