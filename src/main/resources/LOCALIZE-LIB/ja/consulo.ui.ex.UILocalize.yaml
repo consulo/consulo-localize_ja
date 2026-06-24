@@ -45,13 +45,13 @@ color.panel.select.color.dialog.description:
 component.with.browse.button.browse.button.tooltip.text:
     text: クリックまたは Alt-Enter を押す
 create.new.file.could.not.create.file.error.message:
-    text: '''''{0}'''' のファイルを作成できません'
+    text: "''{0}'' のファイルを作成できません"
 create.new.file.enter.new.file.name.prompt.text:
     text: '新規ファイル名を入力してください:'
 create.new.file.file.name.cannot.be.empty.error.message:
     text: ファイル名を入力して下さい
 create.new.folder.could.not.create.folder.error.message:
-    text: フォルダ ''{0}'' を作成できませんでした
+    text: "フォルダ ''{0}'' を作成できませんでした"
 create.new.folder.enter.new.folder.name.prompt.text:
     text: '新規フォルダ名を入力してください:'
 create.new.folder.folder.name.cannot.be.empty.error.message:
@@ -75,7 +75,9 @@ file.cache.conflict.keep.memory.changes.button:
 file.cache.conflict.load.fs.changes.button:
     text: FS 変更をロード(&L)
 file.cache.conflict.message.text:
-    text: "メモリとディスク上の \"{0}\" が\n変更されました。"
+    text: |-
+        メモリとディスク上の "{0}" が
+        変更されました。
 file.cache.conflict.save.changes.button:
     text: 変更の保存
 file.cache.conflict.show.difference.button:
@@ -87,7 +89,9 @@ file.chooser.create.new.folder.command.name:
 file.chooser.default.title:
     text: パスの選択
 file.chooser.save.dialog.confirmation:
-    text: "{0} は既に存在します\n上書きしますか?"
+    text: |-
+        {0} は既に存在します
+        上書きしますか?
 file.chooser.save.dialog.default.title:
     text: 保存ファイルを選択
 file.chooser.save.dialog.file.name:

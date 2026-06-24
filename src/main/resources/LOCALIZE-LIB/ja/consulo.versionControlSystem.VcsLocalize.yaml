@@ -43,7 +43,10 @@ before.checkin.cleanup.code:
 before.checkin.standard.options.check.smells:
     text: 問題のあるコードが含まれるファイルを確認する(&S)
 before.commit.files.contain.code.smells.edit.them.confirm.text:
-    text: "一部のファイルに問題のあるコードが含まれています。\n  {0,choice, 0#0 個のエラー|1#1 個のエラー|2#{0} 個のエラー} と {1,choice, 0#0 個の警告|1#1 個の警告|2#{1} 個の警告} が見つかりました。\n  コミットをキャンセルしてファイルをレビューしますか ?"
+    text: |-
+        一部のファイルに問題のあるコードが含まれています。
+          {0,choice, 0#0 個のエラー|1#1 個のエラー|2#{0} 個のエラー} と {1,choice, 0#0 個の警告|1#1 個の警告|2#{1} 個の警告} が見つかりました。
+          コミットをキャンセルしてファイルをレビューしますか ?
 border.changes.filter.change.number.filter:
     text: 変更
 border.changes.filter.date.filter:

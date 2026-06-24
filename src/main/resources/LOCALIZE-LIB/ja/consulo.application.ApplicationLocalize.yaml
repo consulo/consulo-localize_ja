@@ -113,7 +113,7 @@ checkbox.color.foreground:
 checkbox.do.not.indent.top.level.class.members:
     text: <html>トップ レベルのクラス メンバに対して<br>インデントしない</html>
 checkbox.do.not.wrap.one.line.comments:
-    text: '1 行のコメントは折り返さない'
+    text: 1 行のコメントは折り返さない
 checkbox.editor.tabs.in.single.row:
     text: エディタ タブを 1 行で表示する
 checkbox.enable.ctrl.mousewheel.changes.font.size:
@@ -151,19 +151,19 @@ checkbox.indent.use.tab.character:
 checkbox.indenting.backspace:
     text: バックスペーススマートインデント
 checkbox.insert.both.parentheses.when.no.arguments:
-    text: 引数がないとき '()' を挿入する
+    text: "引数がないとき '()' を挿入する"
 checkbox.insert.imports.for.inner.classes:
     text: インナークラスのインポートを挿入する
 checkbox.insert.pair.bracket:
     text: 組になる大括弧を挿入する
 checkbox.insert.pair.curly.brace:
-    text: 組になる '}' を挿入する
+    text: "組になる '}' を挿入する"
 checkbox.insert.pair.percent.gt.in.jsp:
-    text: JSP で 組になる '%>' を挿入する
+    text: "JSP で 組になる '%>' を挿入する"
 checkbox.insert.pair.quote:
     text: 組になる引用符を挿入する
 checkbox.javadoc.stub.after.slash.star.star:
-    text: '''/**'' の後に JavaDoc スタブを挿入する'
+    text: "'/**' の後に JavaDoc スタブを挿入する"
 checkbox.keep.empty.lines:
     text: 空白行を維持する
 checkbox.keep.empty.param.tags:
@@ -191,13 +191,13 @@ checkbox.make.generated.parameters.final:
 checkbox.mark.modified.tabs.with.asterisk:
     text: 変更したタグをアスタリスク (*) でマークする
 checkbox.next.error.action.goes.to.errors.first:
-    text: '''次のエラー'' 選択時はエラー箇所にのみ移動する'
+    text: "'次のエラー' 選択時はエラー箇所にのみ移動する"
 checkbox.optimize.imports.on.the.fly:
     text: オンザフライでインポートを最適化する
 checkbox.prefer.longer.names:
     text: 長い名前を使用する
 checkbox.reformat.on.typing.rbrace:
-    text: 入力時にブロックの再フォーマット '}'
+    text: "入力時にブロックの再フォーマット '}'"
 checkbox.right.margin:
     text: 右余白 ([コード スタイル] オプションで設定)
 checkbox.show.breadcrumbs:
@@ -239,13 +239,13 @@ checkbox.smooth.scrolling:
 checkbox.spaces.additive.operators:
     text: 加法演算子 (+、-)
 checkbox.spaces.after.colon:
-    text: ''':'' の後'
+    text: "':' の後"
 checkbox.spaces.after.colon.in.label.declaration:
-    text: ラベル宣言の ':' の後
+    text: "ラベル宣言の ':' の後"
 checkbox.spaces.after.comma:
     text: カンマの後
 checkbox.spaces.after.question:
-    text: '''?'' の後'
+    text: "'?' の後"
 checkbox.spaces.after.semicolon:
     text: セミコロンの後
 checkbox.spaces.after.type.cast:
@@ -263,11 +263,11 @@ checkbox.spaces.array.initializer.left.brace:
 checkbox.spaces.assignment.operators:
     text: 代入演算子 (=、+=、...)
 checkbox.spaces.before.colon:
-    text: ''':'' の前'
+    text: "':' の前"
 checkbox.spaces.before.comma:
     text: カンマの前
 checkbox.spaces.before.question:
-    text: '''?'' の前'
+    text: "'?' の前"
 checkbox.spaces.before.semicolon:
     text: セミコロンの前
 checkbox.spaces.bitwise.operators:
@@ -457,7 +457,7 @@ date.format.in.n.weeks:
 date.format.in.n.years:
     text: '{0,choice, 0#0 年間|1#1 年間|2#{0,number} 年間}'
 date.format.less.than.a.minute:
-    text: '1 分未満'
+    text: 1 分未満
 date.format.n.days:
     text: '{0,choice, 0#0 日|1#1 日|2#{0,number} 日}'
 date.format.n.days.ago:
@@ -513,7 +513,7 @@ editbox.blanklines.before.imports:
 editbox.blanklines.before.package.statement:
     text: 'package 文の前 :'
 editbox.class.count.to.use.import.with.star:
-    text: '''*'' でインポートに使用するクラス数 :'
+    text: "'*' でインポートに使用するクラス数 :"
 editbox.enter.tag.name:
     text: 'タグ名称を入力してください :'
 editbox.error.stripe.mark.min.height.pixels:
@@ -533,7 +533,7 @@ editbox.installation.home:
 editbox.keep.blank.lines:
     text: '空白行の維持 :'
 editbox.keep.blanklines.before.rbrace:
-    text: '''}'' の前 :'
+    text: "'}' の前 :"
 editbox.keep.blanklines.in.code:
     text: 'コード内 :'
 editbox.keep.blanklines.in.declarations:
@@ -545,7 +545,7 @@ editbox.lookup.height:
 editbox.maximum.number.of.contents.to.keep.in.clipboard:
     text: <html>クリップボードに保持するコンテンツの最大数 :</html>
 editbox.names.count.to.use.static.import.with.star:
-    text: '''*'' で static インポートに使用する名前数 :'
+    text: "'*' で static インポートに使用する名前数 :"
 editbox.path.macro.name:
     text: '名前 :'
 editbox.path.macro.value:
@@ -569,7 +569,7 @@ error.does.not.appear.to.be.installation.home:
 error.illegal.scheme.name:
     text: 不正なスキーム名
 error.invalid.installation.home:
-    text: 設定をインポートできません ''{0}'' は有効な {1} インストール ホームではありません
+    text: "設定をインポートできません ''{0}'' は有効な {1} インストール ホームではありません"
 error.monitor.too.many.errors:
     text: 多数の IDE の致命的なエラー モニタは停止しました。
 error.no.read.permissions:
@@ -581,11 +581,14 @@ error.path.variable.is.undefined:
 error.please.select.previous.installation.home:
     text: 旧 {0} インストール ホームを選択してください
 error.plugins.should.not.have.cyclic.dependencies:
-    text: "プラグインは循環依存できません :\n"
+    text: |
+        プラグインは循環依存できません :
 error.scheme.must.have.a.name:
     text: スキームには名前の指定が必要です
 error.selected.current.installation.home:
-    text: "現在の {0} インストール ホームを選択しました。\n旧 {1} インストール ホームを選択してください"
+    text: |-
+        現在の {0} インストール ホームを選択しました。
+        旧 {1} インストール ホームを選択してください
 error.unable.to.import.settings:
     text: 設定をインポートできません {0}
 error.variable.already.exists:
@@ -747,9 +750,9 @@ radio.do.not.import:
 radio.import:
     text: 設定をインポートする
 radio.insert.both.parentheses:
-    text: '''()'' を挿入する'
+    text: "'()' を挿入する"
 radio.insert.left.parenthesis:
-    text: '''('' を挿入する'
+    text: "'(' を挿入する"
 radio.prefer.comma.separated.import.list:
     text: カンマ区切りのインポート リストを使用する
 radio.prefer.one.import.statement.per.page.directive:
@@ -829,7 +832,9 @@ title.file.status:
 title.general:
     text: 一般
 title.global.code.style:
-    text: "グローバル\nコード スタイル"
+    text: |-
+        グローバル
+        コード スタイル
 title.import.layout:
     text: レイアウトのインポート
 title.imports:
@@ -855,7 +860,7 @@ title.naming.final.modifier:
 title.order.of.members:
     text: メンバの順序
 title.packages.to.use.import.with:
-    text: '''*'' でインポートに使用するパッケージ'
+    text: "'*' でインポートに使用するパッケージ"
 title.parameter.info:
     text: パラメータ情報
 title.path.variables:
@@ -865,7 +870,9 @@ title.place.on.new.line:
 title.preview:
     text: プレビュー
 title.project.code.style:
-    text: "プロジェクト\nコード スタイル"
+    text: |-
+        プロジェクト
+        コード スタイル
 title.remove.line.breaks.before.tags:
     text: タグの前の行ブレイクを削除する
 title.save.code.style.scheme.as:

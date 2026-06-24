@@ -197,7 +197,7 @@ action.CompareFileWithEditor.text:
 action.CompareTwoFiles.description:
     text: 選択した 2 つのファイルを比較します
 action.CompareTwoFiles.text:
-    text: '2 つのファイルの比較(_F)'
+    text: 2 つのファイルの比較(_F)
 action.Console.SplitLine.text:
     text: スプリットライン
 action.ContextHelp.description:

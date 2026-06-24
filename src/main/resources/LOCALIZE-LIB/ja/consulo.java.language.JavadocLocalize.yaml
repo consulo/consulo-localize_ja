@@ -7,13 +7,17 @@ javadoc.generate.basic.option:
 javadoc.generate.closing.tag:
     text: 自動的に終了タグを挿入する
 javadoc.generate.exited:
-    text: "\njavadoc は終了コード $EXIT_CODE$ で終了しました\n"
+    text: |4
+
+        javadoc は終了コード $EXIT_CODE$ で終了しました
 javadoc.generate.heap.size:
     text: '最大ヒープ サイズ (MB):'
 javadoc.generate.no.classes.in.selected.packages.error:
     text: 選択したパッケージには Java クラスがありません。
 javadoc.generate.no.jdk.path:
-    text: "JDK パスが指定されていません。\nJavaDoc を生成できません。"
+    text: |-
+        JDK パスが指定されていません。
+        JavaDoc を生成できません。
 javadoc.generate.open.in.browser:
     text: 生成したドキュメントをブラウザで開く
 javadoc.generate.options.hierarchy:
@@ -31,7 +35,9 @@ javadoc.generate.output.directory.browse:
 javadoc.generate.output.directory.creation.failed:
     text: '"{0}" の作成に失敗しました。'
 javadoc.generate.output.directory.not.exists:
-    text: "出力ディレクトリ \"{0}\" は存在しません。\n作成しますか ?"
+    text: |-
+        出力ディレクトリ "{0}" は存在しません。
+        作成しますか ?
 javadoc.generate.output.directory.not.specified:
     text: 出力ディレクトリが指定されていません
 javadoc.generate.output.not.a.directory:

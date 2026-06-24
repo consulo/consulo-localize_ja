@@ -13,7 +13,8 @@ add.property.dialog.title:
 add.property.to.constructors.checkbox:
     text: コンストラクタにプロパティを追加する
 cannot.perform.the.refactoring:
-    text: "リファクタリングを実行できません\n"
+    text: |
+        リファクタリングを実行できません
 choose.destination.package.label:
     text: 宛先パッケージを選択
 class.found.column.header:
@@ -63,7 +64,7 @@ introduce.type.parameter.title:
 make.property.final.checkbox:
     text: プロパティをfinalにする
 method.selected.returns.void:
-    text: 選択されたメソッドは 'void'を返します。
+    text: "選択されたメソッドは 'void'を返します。"
 methods.to.copy.javadoc.from:
     text: javadocをコピーするメソッド元
 module.source:
@@ -143,7 +144,8 @@ the.selected.class.is.an.enumeration:
 there.already.exists.a.class.with.the.chosen.name:
     text: 選択した名前のクラスが既に存在します。
 there.are.non.genericizable.instances.of.the.type.you.selected:
-    text: "選択したタイプの非ジェネリゼーション可能なインスタンスがあります。\n"
+    text: |
+        選択したタイプの非ジェネリゼーション可能なインスタンスがあります。
 type.parameters.can.not.be.introduced.as.type.parameters:
     text: タイプパラメータは、タイプパラメータとして導入することはできません。
 type.selected.is.not.in.class.context:

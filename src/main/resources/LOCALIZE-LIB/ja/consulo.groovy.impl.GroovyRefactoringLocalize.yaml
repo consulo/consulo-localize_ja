@@ -5,7 +5,7 @@ changeSignature.no.type.for.exception:
 changeSignature.refactoring.name:
     text: シグネチャの変更
 changeSignature.wrong.type.for.exception:
-    text: '不正な型 : 例外の ''''{0}'''''
+    text: "不正な型 : 例外の ''{0}''"
 changing.signature.of.0:
     text: '{0} のシグネチャを変更しています'
 column.name.default.value:

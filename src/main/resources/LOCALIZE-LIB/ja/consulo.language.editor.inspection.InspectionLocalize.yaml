@@ -145,7 +145,7 @@ inspection.application.opening.project:
 inspection.application.starting.up:
     text: 開始しています...
 inspection.assert.quickfix:
-    text: '''''{0}'''' のアサート'
+    text: "''{0}'' のアサート"
 inspection.can.be.final.display.name:
     text: 宣言は final 修飾子を持てます
 inspection.can.be.final.option:
@@ -251,13 +251,15 @@ inspection.dead.code.remove.from.entry.point.quickfix:
 inspection.dead.code.safe.delete.quickfix:
     text: セーフ デリート
 inspection.dead.code.start.comment:
-    text: "// --検査 START ({0}) によりコメント アウト\n"
+    text: |
+        // --検査 START ({0}) によりコメント アウト
 inspection.dead.code.stop.comment:
-    text: "// --検査 STOP ({0}) によりコメント アウト\n"
+    text: |
+        // --検査 STOP ({0}) によりコメント アウト
 inspection.dependency.configure.button.text:
     text: 依存関係ルールの設定
 inspection.dependency.violator.problem.descriptor:
-    text: 依存関係ルール ''{0}.'' に違反しています
+    text: "依存関係ルール ''{0}.'' に違反しています"
 inspection.deprecated.display.name:
     text: 非推奨 API の使用方法
 inspection.description.title:
@@ -275,13 +277,13 @@ inspection.duplicates.message:
 inspection.duplicates.message.in.this.file:
     text: (このファイル内)
 inspection.duplicates.message.more:
-    text: ... ({0} 以上)
+    text: '... ({0} 以上)'
 inspection.duplicates.option:
     text: '最小文字列長(&M):'
 inspection.duplicates.replace.family.quickfix:
     text: 置換
 inspection.duplicates.replace.quickfix:
-    text: '''''{0}'''' で置換する'
+    text: "''{0}'' で置換する"
 inspection.empty.method.delete.quickfix:
     text: 不要なメソッドを削除する
 inspection.empty.method.display.name:
@@ -419,11 +421,11 @@ inspection.javadoc.problem.descriptor:
 inspection.javadoc.problem.descriptor1:
     text: ドキュメントにピリオドがありません。 ピリオドは javadoc tool により使用され、概要ページのコメントを生成します。
 inspection.javadoc.problem.duplicate.param:
-    text: パラメータ ''{0}'' の @param タグの重複
+    text: "パラメータ ''{0}'' の @param タグの重複"
 inspection.javadoc.problem.duplicate.tag:
     text: '@{0} タグの重複'
 inspection.javadoc.problem.duplicate.throws:
-    text: 例外 ''{0}'' の @throws または @exception タグの重複
+    text: "例外 ''{0}'' の @throws または @exception タグの重複"
 inspection.javadoc.required.tags.option.title:
     text: 必要なタグ
 inspection.javadoc.throws.or.exception.option:
@@ -445,7 +447,7 @@ inspection.nullable.problems.display.name:
 inspection.offline.view.tool.display.name.title:
     text: 名前
 inspection.options.action.text:
-    text: '''''{0}'''' オプションの検査'
+    text: "''{0}'' オプションの検査"
 inspection.problem.resolution:
     text: 問題の解決
 inspection.problem.synopsis:
@@ -495,7 +497,7 @@ inspection.reference.anonymous.name:
 inspection.same.parameter.display.name:
     text: 実際のメソッド パラメータは同じ定数です
 inspection.same.parameter.problem.descriptor:
-    text: 実際のパラメータ ''{0}'' の値は常に ''{1}'' です。
+    text: "実際のパラメータ ''{0}'' の値は常に ''{1}'' です。"
 inspection.same.return.value.display.name:
     text: メソッドは同じ値を返します
 inspection.same.return.value.problem.descriptor:
@@ -511,7 +513,7 @@ inspection.severity:
 inspection.suspicious.collections.method.calls.display.name:
     text: 疑わしいコレクション メソッド呼び出し
 inspection.suspicious.collections.method.calls.problem.descriptor1:
-    text: 疑わしい ''{0}'' への呼び出し
+    text: "疑わしい ''{0}'' への呼び出し"
 inspection.tool.availability.in.tree.node:
     text: (エディタ構文強調表示で使用可能)
 inspection.tool.availability.in.tree.node1:
@@ -529,7 +531,7 @@ inspection.tree.popup.title:
 inspection.unable.to.create.profile.dialog.title:
     text: プロファイルを作成できません
 inspection.unable.to.create.profile.message:
-    text: 検査プロファイル ''{0}'' は既に存在します
+    text: "検査プロファイル ''{0}'' は既に存在します"
 inspection.unused.assignment.display.name:
     text: 使用しない代入
 inspection.unused.assignment.option:
@@ -577,15 +579,15 @@ suppress.all.for.class:
 suppress.inspection.annotation.syntax.error:
     text: '不正な注釈構文 : {0}'
 suppress.inspection.class:
-    text: クラスの ''{0}'' の抑止
+    text: "クラスの ''{0}'' の抑止"
 suppress.inspection.family:
     text: 検査の抑止
 suppress.inspection.field:
-    text: フィールドの ''{0}'' の抑止
+    text: "フィールドの ''{0}'' の抑止"
 suppress.inspection.method:
-    text: メソッドの ''{0}'' の抑止
+    text: "メソッドの ''{0}'' の抑止"
 suppress.inspection.statement:
-    text: ステートメントの ''{0}'' の抑止
+    text: "ステートメントの ''{0}'' の抑止"
 unchecked.warning:
     text: 未チェックの警告
 unused.import.statement:
