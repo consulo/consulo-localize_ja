@@ -27,7 +27,9 @@ diagnostic.out.of.memory.currentValue:
 diagnostic.out.of.memory.dump:
     text: メモリダンプ
 diagnostic.out.of.memory.error:
-    text: "要求した処理を実行するための十分なメモリがありません。\n{0} をシャットダウンして {2} の {1} 設定を増やしてください。"
+    text: |-
+        要求した処理を実行するための十分なメモリがありません。
+        {0} をシャットダウンして {2} の {1} 設定を増やしてください。
 diagnostic.out.of.memory.title:
     text: メモリ不足
 diagnostic.out.of.memory.willBeSavedTo:
@@ -147,7 +149,7 @@ progress.download.plugins:
 progress.downloading.list.of.plugins:
     text: プラグインのリストをダウンロードしています
 progress.downloading.plugin:
-    text: プラグイン ''{0}'' をダウンロードしています
+    text: "プラグイン ''{0}'' をダウンロードしています"
 prompt.download.and.install.plugin:
     text: プラグイン "{0}" のダウンロードとインストールを行いますか ?
 prompt.uninstall.plugin:

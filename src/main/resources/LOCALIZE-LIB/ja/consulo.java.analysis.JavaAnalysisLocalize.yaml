@@ -3,7 +3,7 @@ annotate.overridden.methods.parameters.family.name:
 dataflow.method.fails.with.null.argument:
     text: パラメータがnullの場合、メソッドは例外をスローします。
 exports.to.itself.delete.module.ref.fix:
-    text: モジュール '' {0} ''への参照を削除する
+    text: "モジュール '' {0} ''への参照を削除する"
 exports.to.itself.delete.statement.fix:
     text: 文の削除
 feature.annotations:
@@ -19,7 +19,7 @@ feature.for.each:
 feature.generics:
     text: ジェネリックス
 feature.hex.fp.literals:
-    text: '16進浮動小数点リテラル'
+    text: 16進浮動小数点リテラル
 feature.lambda.expressions:
     text: ラムダ式
 feature.method.references:
@@ -81,7 +81,7 @@ inspection.export.results.can.be.final.description:
 inspection.java.module.naming:
     text: Javaモジュールの命名規則
 inspection.java.module.naming.terminal.digits:
-    text: モジュール名 '' {0} ''は端末の数字を避けるべきです
+    text: "モジュール名 '' {0} ''は端末の数字を避けるべきです"
 inspection.local.can.be.final.display.name:
     text: ローカル変数またはパラメータは final にできます。
 inspection.local.can.be.final.option:
@@ -103,11 +103,11 @@ inspection.redundant.cast.problem.descriptor:
 inspection.redundant.cast.remove.quickfix:
     text: 冗長なキャストの削除
 inspection.redundant.requires.statement.description:
-    text: 冗長なステートメント ''が必要です{0} ''
+    text: "冗長なステートメント ''が必要です{0} ''"
 inspection.redundant.requires.statement.fix.family:
     text: 冗長な「要求」ステートメントを削除する
 inspection.redundant.requires.statement.fix.name:
-    text: 削除ステートメント ''が必要です{0} ''
+    text: "削除ステートメント ''が必要です{0} ''"
 inspection.redundant.throws.problem.descriptor:
     text: 宣言した例外 {0} は、メソッドの実装ではスローされません。
 inspection.redundant.throws.problem.descriptor1:
@@ -137,7 +137,7 @@ inspection.same.return.value.problem.descriptor2:
 inspection.suspicious.collections.method.calls.display.name:
     text: 疑わしいコレクション メソッド呼び出し
 inspection.suspicious.collections.method.calls.problem.descriptor1:
-    text: 疑わしい ''{0}'' への呼び出し
+    text: "疑わしい ''{0}'' への呼び出し"
 inspection.test.only.problems.test.only.class.reference:
     text: テスト専用クラスは実動コードで参照されています
 inspection.test.only.problems.test.only.field.reference:
@@ -153,12 +153,12 @@ scope.package:
 suppress.all.for.class:
     text: クラスのすべての検査を抑止
 suppress.inspection.class:
-    text: クラスの ''{0}'' の抑止
+    text: "クラスの ''{0}'' の抑止"
 suppress.inspection.field:
-    text: フィールドの ''{0}'' の抑止
+    text: "フィールドの ''{0}'' の抑止"
 suppress.inspection.member:
     text: メンバーを非表示にする
 suppress.inspection.method:
-    text: メソッドの ''{0}'' の抑止
+    text: "メソッドの ''{0}'' の抑止"
 unused.import.statement:
     text: 未使用の import 文

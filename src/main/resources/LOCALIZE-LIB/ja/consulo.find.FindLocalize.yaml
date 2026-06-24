@@ -35,7 +35,7 @@ find.directory.not.found.error:
 find.excessive.total.size.prompt:
     text: 合計サイズ {0} のファイル内の使用箇所が見つかりました。 続行すると、{1} は応答しないかメモリ不足エラーになる可能性があります。 続行しますか ?
 find.field.accessors.prompt:
-    text: '''''{0}'''' のアクセッサを検索しますか ?'
+    text: "''{0}'' のアクセッサを検索しますか ?"
 find.field.accessors.title:
     text: アクセッサの検索
 find.filter.empty.file.mask.error:
@@ -53,7 +53,9 @@ find.in.path.dialog.title:
 find.invalid.regular.expression.error:
     text: 不正なパターン "{0}"
 find.no.usages.at.cursor.error:
-    text: "使用箇所を検索できません。\n検索したい要素にキャレットを位置づけて再度実行してください。"
+    text: |-
+        使用箇所を検索できません。
+        検索したい要素にキャレットを位置づけて再度実行してください。
 find.open.in.new.tab.checkbox:
     text: 新規タブで開く(&B)
 find.options.case.sensitive:
@@ -67,7 +69,7 @@ find.options.regular.expressions:
 find.options.replace.preserve.case:
     text: 大文字/小文字を保持する(&P)
 find.options.skip.results.tab.with.one.occurrence.checkbox:
-    text: '1つのオカレンスしか見つからない場合は、[結果のスキップ]タブ'
+    text: 1つのオカレンスしか見つからない場合は、[結果のスキップ]タブ
 find.options.skip.results.tab.with.one.usage.checkbox:
     text: 使用箇所で結果タブをスキップする(&K)
 find.options.whole.words.only:
@@ -79,7 +81,7 @@ find.origin.from.cursor.radio:
 find.origin.group:
     text: 元
 find.parameter.usages.in.overriding.methods.prompt:
-    text: オーバーライドされたメソッド内のパラメータ ''{0}'' の使用箇所を検索しますか ?
+    text: "オーバーライドされたメソッド内のパラメータ ''{0}'' の使用箇所を検索しますか ?"
 find.parameter.usages.in.overriding.methods.title:
     text: オーバーライドするメソッド内の検索
 find.pointcut.applications.not.found.title:
@@ -129,7 +131,10 @@ find.replace.invalid.replacement.string.title:
 find.replace.occurrences.found.in.read.only.files.status:
     text: 対象は読み取り専用ファイルで見つかりました
 find.replace.occurrences.in.read.only.files.prompt:
-    text: "対象は読み取り専用ファイル内に見つかりました。\n操作はそれらに影響しません。\n強制的に続行しますか ?"
+    text: |-
+        対象は読み取り専用ファイル内に見つかりました。
+        操作はそれらに影響しません。
+        強制的に続行しますか ?
 find.replace.occurrences.in.read.only.files.title:
     text: 読み取り専用ファイルが見つかりました
 find.replace.select.on.editor.command:
@@ -177,7 +182,9 @@ find.search.again.from.top.hotkey.message:
 find.search.string.not.found.message:
     text: '"{0}" は見つかりません'
 find.searched.elements.have.been.changed.error:
-    text: "検索した要素は変更されています。\n使用箇所を検索できません。"
+    text: |-
+        検索した要素は変更されています。
+        使用箇所を検索できません。
 find.searching.for.references.to.class.progress:
     text: クラス {0} への参照を検索しています...
 find.searching.for.string.in.file.progress:
@@ -191,9 +198,9 @@ find.text.to.find.label:
 find.usage.view.no.usages.text:
     text: 使用箇所は見つかりません
 find.usage.view.tab.text:
-    text: '''''{0}'''' の対象'
+    text: "''{0}'' の対象"
 find.usage.view.usages.text:
-    text: '''''{0}'''' の対象'
+    text: "''{0}'' の対象"
 find.usages.dialog.title:
     text: 使用箇所の検索
 find.usages.in.file.dialog.title:

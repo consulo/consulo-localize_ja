@@ -133,9 +133,9 @@ jdk.not.configured.error.message:
 jnit.configuration.all.tests.in.package.radio:
     text: パッケージ内のすべてのテスト
 jre.not.valid.error.message:
-    text: '''''{0}'''' は有効な JRE ホームではありません'
+    text: "''{0}'' は有効な JRE ホームではありません"
 jre.path.is.not.valid.jre.home.error.mesage:
-    text: '''''{0}'''' は有効な JRE ホームではありません'
+    text: "''{0}'' は有効な JRE ホームではありません"
 junit.all.tests.passed.label:
     text: すべてのテストに合格
 junit.auto.scroll.to.source.action.name:
@@ -463,7 +463,7 @@ starting.jvm.progress.text:
 statistics.tab.title:
     text: 出力統計情報
 stop.configuration.action.name:
-    text: 停止 '' {0} ''
+    text: "停止 '' {0} ''"
 stop.incompatible.confirmation.button.text:
     text: 互換性のない停止
 strings.equal.failed.dialog.title:
@@ -473,7 +473,7 @@ template.settings.configurable.display.name:
 terminate.after.disconnect.checkbox:
     text: 切断後にプロセスを中止
 terminating.process.progress.title:
-    text: '''{0}'''' を中止しています'
+    text: "'{0}'' を中止しています"
 test.cases.count.message:
     text: '{0} テスト ケース'
 test.in.scope.presentable.text:
