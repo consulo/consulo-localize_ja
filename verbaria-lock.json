@@ -3,7 +3,7 @@
   "project" : "consulo**",
   "projectVersion" : "master",
   "sourceLocale" : "en-US",
-  "generatedAt" : "2026-06-28T18:44:54.770157388Z",
+  "generatedAt" : "2026-06-28T18:49:03.426335876Z",
   "documents" : {
     "consulo-apache-ant/consulo.apache.ant.impl.ApacheAntImplLocalize" : {
       "source" : {
@@ -599,6 +599,12 @@
           "total" : 2,
           "translators" : [ "Valery Semenchuk <vistall.valeriy@gmail.com>" ]
         }
+      }
+    },
+    "consulo-toml/consulo.toml.TomlLocalize" : {
+      "source" : {
+        "revision" : 1,
+        "sig" : "e28d4a65ac630d289bfc0aa2028e7b97"
       }
     },
     "consulo-unity3d/consulo.unity3d.Unity3dLocalize" : {
