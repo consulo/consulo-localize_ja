@@ -21,7 +21,7 @@ color.name:
 color.rgb:
     text: カラーRGB:\&nbsp; {0}
 compound.run.configuration.cycle:
-    text: '{0} '''' {1} ''''は依存関係のサイクルを引き起こし、追加できません'
+    text: "{0} '' {1} ''は依存関係のサイクルを引き起こし、追加できません"
 default.package.presentation:
     text: <デフォルト>
 el.cannot.resolve.function:

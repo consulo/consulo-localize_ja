@@ -231,7 +231,7 @@ action.structureview.show.properties:
 action.structureview.sort.by.visibility:
     text: 可視レベルによるソート
 action.synchronize.file:
-    text: '''''{0}'''' の同期'
+    text: "''{0}'' の同期"
 action.synchronize.selected.files:
     text: 選択したファイルの同期
 action.todo.edit.filters:
@@ -487,11 +487,14 @@ description.select.project.file.directory:
 dialog.title.clear.read.only.file.status:
     text: 読み取り専用ステータスのクリア
 directory.module.content.root:
-    text: "モジュール コンテント ルート\n"
+    text: |
+        モジュール コンテント ルート
 directory.module.file:
-    text: "モジュール ファイル ディレクトリ\n"
+    text: |
+        モジュール ファイル ディレクトリ
 directory.project.file.directory:
-    text: "プロジェクト ファイル ディレクトリ\n"
+    text: |
+        プロジェクト ファイル ディレクトリ
 editbox.customfiletype.block.comment.end:
     text: 'ブロック コメントの終了 :'
 editbox.customfiletype.block.comment.start:
@@ -549,15 +552,19 @@ error.connection.failed.redirects:
 error.connection.failed.with.http.code.N:
     text: 接続は HTTP コード {0} で失敗しました
 error.content.root.already.defined.for.module:
-    text: "コンテント ルート \"{0}\" はモジュール \"{1}\" で既に定義されています。\nプロジェクト内の 2 つのモジュールは同じコンテント ルートを共有できません。"
+    text: |-
+        コンテント ルート "{0}" はモジュール "{1}" で既に定義されています。
+        プロジェクト内の 2 つのモジュールは同じコンテント ルートを共有できません。
 error.correct.pattern.syntax.errors.first:
     text: 最初にパターン構文エラーを修正する
 error.failed.to.create.directory:
     text: '"{0}" の作成に失敗しました'
 error.favorites.list.already.exists:
-    text: お気に入りリスト ''{0}'' は既に存在します
+    text: "お気に入りリスト ''{0}'' は既に存在します"
 error.file.contains.no.settings.to.import:
-    text: "ファイル {0} にはインポートする設定が含まれていません。\n{1}"
+    text: |-
+        ファイル {0} にはインポートする設定が含まれていません。
+        {1}
 error.files.of.this.type.cannot.be.opened:
     text: このタイプのファイルは {0} で開けません
 error.keyword.cannot.be.empty:
@@ -565,15 +572,21 @@ error.keyword.cannot.be.empty:
 error.keyword.may.not.contain.spaces:
     text: キーワードに空白は入力できません
 error.license.collision:
-    text: "このライセンスはネットワーク上の他の場所で {0} により使用されています。\nライセンスは複数のコンピュータで同時に使用できません。\nこのコンピュータで再アクティベートしますか ?\n再アクティベートは [はい] を、{1} の終了は [いいえ] をクリックしてください。"
+    text: |-
+        このライセンスはネットワーク上の他の場所で {0} により使用されています。
+        ライセンスは複数のコンピュータで同時に使用できません。
+        このコンピュータで再アクティベートしますか ?
+        再アクティベートは [はい] を、{1} の終了は [いいえ] をクリックしてください。
 error.malformed.url:
     text: '不正な URL です : {0}'
 error.module.already.exists:
-    text: モジュール名 ''{0}'' は既に存在します
+    text: "モジュール名 ''{0}'' は既に存在します"
 error.module.file.does.not.exist:
     text: 指定されたモジュール ファイルへのパスは存在しません
 error.module.not.iml:
-    text: "\"{0}\"\nは {1} モジュール ファイル (.iml) ではありません"
+    text: |-
+        "{0}"
+        は {1} モジュール ファイル (.iml) ではありません
 error.module.with.name.already.exists:
     text: モジュール名 "{0}" は既にプロジェクトに存在します
 error.name.cannot.be.empty:
@@ -587,7 +600,7 @@ error.please.enter.a.file.name:
 error.please.specify.module.file.location:
     text: モジュール ファイルの場所を指定してください
 error.please.specify.new.name.for.schema:
-    text: スキーマ''{0}'' に新しい名前を指定してください。
+    text: "スキーマ''{0}'' に新しい名前を指定してください。"
 error.please.specify.path.to.module.file:
     text: '{0} モジュール ファイル (.iml) へのパスを指定してください'
 error.please.specify.path.to.web.browser:
@@ -601,27 +614,43 @@ error.project.file.does.not.exist:
 error.project.file.is.corrupted:
     text: プロジェクト ファイルは破損しています
 error.reading.settings.file:
-    text: "ファイル {0} の読み込みエラー。\n{1} が存在します。\n\n{2}"
+    text: |-
+        ファイル {0} の読み込みエラー。
+        {1} が存在します。
+
+        {2}
 error.reading.settings.file.2:
-    text: "ファイル {0} の読み込みエラー。\n\n{1}"
+    text: |-
+        ファイル {0} の読み込みエラー。
+
+        {1}
 error.saving.license.data:
-    text: "ライセンス情報の保存エラー。\n{0}"
+    text: |-
+        ライセンス情報の保存エラー。
+        {0}
 error.source.directory.should.be.under.module.content.root.directory:
     text: ソース ディレクトリは、モジュール コンテント ディレクトリに格納する必要があります
 error.template.with.such.name.already.exists:
     text: その名前のテンプレートは既に存在します。 別のテンプレート名を指定してください
 error.text.file.already.exists:
-    text: "ファイル {0} は既に存在しています\n上書きまたは追加しますか ?"
+    text: |-
+        ファイル {0} は既に存在しています
+        上書きまたは追加しますか ?
 error.tips.not.found:
     text: ヒントがありません。  {0} が正しくインストールされていることを確認してください。
 error.unable.to.parse.template.message:
-    text: "テンプレート \"{0}\" の解析ができません\nエラー メッセージ : {1}"
+    text: |-
+        テンプレート "{0}" の解析ができません
+        エラー メッセージ : {1}
 error.unable.to.read.tip.of.the.day:
     text: <html><body>ヒントが表示できません。 {0} が正常にインストールされていることを確認してください。</body></html>
 error.unable.to.save.file.template.using.encoding:
     text: '{1} を使用するファイルテンプレート "{0}" を保存できません'
 error.writing.settings:
-    text: "設定の書き込みエラー。\n\n{0}"
+    text: |-
+        設定の書き込みエラー。
+
+        {0}
 error.writing.to.file:
     text: 'ファイルの書き込みエラー : {0}'
 errortree.error:
@@ -749,7 +778,10 @@ label.icon.path:
 label.inactive.timeout.sec:
     text: 秒。
 label.java.source.files.have.been.found:
-    text: "モジュールの Java ソース ファイルが見つかりました。 ソース パスとしてマークする\nディレクトリを選択してください。 これらのパスはデフォルト (root, unnamed) パッケージに対応します。\n注意 : プログラムは、ソース ディレクトリに位置する Java ソース ファイルのみを認識します。"
+    text: |-
+        モジュールの Java ソース ファイルが見つかりました。 ソース パスとしてマークする
+        ディレクトリを選択してください。 これらのパスはデフォルト (root, unnamed) パッケージに対応します。
+        注意 : プログラムは、ソース ディレクトリに位置する Java ソース ファイルのみを認識します。
 label.macro.preview:
     text: 'マクロ プレビュー :'
 label.macros:
@@ -879,21 +911,21 @@ macro.prompt:
 macro.sourcepath.entry:
     text: 要素が属するソースパス内のエントリ
 message.educational.license:
-    text: '1 年間の学校教育向けライセンス。 {0}'
+    text: 1 年間の学校教育向けライセンス。 {0}
 message.evaluation.N.days:
     text: '{0} 日'
 message.evaluation.has.expired:
     text: 評価版ライセンスの期限が切れました。<br>{0}
 message.evaluation.less.than.one.day:
-    text: '1 日未満'
+    text: 1 日未満
 message.evaluation.one.day:
-    text: '1 日'
+    text: 1 日
 message.evaluation.will.expire:
     text: '{0} の評価版のご使用ありがとうございます。<br>評価版ライセンスの使用期限は {1}<br><br>{2}<br>引き続き商用版をご使用になる場合は [ヘルプ] メニューから登録してください。'
 message.macro.exists:
-    text: マクロ ''{0}'' は既に存在します。 上書きしますか ?
+    text: "マクロ ''{0}'' は既に存在します。 上書きしますか ?"
 message.module:
-    text: モジュール ''{0}''
+    text: "モジュール ''{0}''"
 message.modules:
     text: モジュール
 message.move.modules.to.group:
@@ -907,7 +939,9 @@ message.nothing.to.show.in.structure.view:
 message.occurrence.N.of.M:
     text: '{1} の 対象 {0}'
 message.open.file.is.project:
-    text: "{0} は {1} プロジェクト ファイルです。\nこのプロジェクトを開きますか ?"
+    text: |-
+        {0} は {1} プロジェクト ファイルです。
+        このプロジェクトを開きますか ?
 message.open.source.project.license:
     text: オープン ソース プロジェクト ライセンス。 {0}
 message.please.ensure.correct.settings:
@@ -917,11 +951,15 @@ message.please.select.element.for.javadoc:
 message.purchase.or.upgrade:
     text: '{0} を購入する際は、{1} を参照してください。<br>以前のバージョンからのアップグレードについては {2} を参照してください。'
 message.reference.to.fqn.has.been.copied:
-    text: '''''{0}'''' への参照をコピーしました。'
+    text: "''{0}'' への参照をコピーしました。"
 message.settings.exported.successfully:
-    text: "設定を正常にエクスポートしました。\n設定のインポートは [ファイル] - [設定のインポート] で行います。"
+    text: |-
+        設定を正常にエクスポートしました。
+        設定のインポートは [ファイル] - [設定のインポート] で行います。
 message.settings.imported.successfully:
-    text: "設定を正常にインポートしました。 {0} を再起動して設定を読み込み直してください。\n{1} をシャットダウンしますか ?"
+    text: |-
+        設定を正常にインポートしました。 {0} を再起動して設定を読み込み直してください。
+        {1} をシャットダウンしますか ?
 message.upgrade.from.previous.required:
     text: '{0} はアップグレード必要です。<br>JetBrains Web サイトからライセンス キーを購入してください。<br>{1}'
 node.call.hierarchy.N.usages:
@@ -959,7 +997,9 @@ progress.searching:
 progress.searching.for.sources:
     text: '{0} のソースを検索しています。 しばらくお待ちください。'
 promot.projectwizard.directory.does.not.exist:
-    text: "{0}\"{1}\"\n存在しません。 {2} によって作成されます。"
+    text: |-
+        {0}"{1}"
+        存在しません。 {2} によって作成されます。
 prompt.browse.icon.for.selected.action:
     text: 選択したアクションのアイコンを参照してください
 prompt.check.components.to.import:
@@ -971,9 +1011,14 @@ prompt.choose.export.settings.file.path:
 prompt.choose.import.file.path:
     text: インポートするファイルまたはファイルの存在するディレクトリを選択してください
 prompt.confirm.project.no.jdk:
-    text: "JDK を指定せずにプロジェクトを作成しますか ?\nJDK はコンパイル、デバッグ、およびアプリケーションの実行の際に必要です。\n標準 JDK Class Resolution も同様です。"
+    text: |-
+        JDK を指定せずにプロジェクトを作成しますか ?
+        JDK はコンパイル、デバッグ、およびアプリケーションの実行の際に必要です。
+        標準 JDK Class Resolution も同様です。
 prompt.create.non.existing.package:
-    text: "パッケージ {0} は存在しません。\n作成しますか ?"
+    text: |-
+        パッケージ {0} は存在しません。
+        作成しますか ?
 prompt.delete.and:
     text: と
 prompt.delete.elements:
@@ -1019,17 +1064,28 @@ prompt.new.project.file.name:
 prompt.open.project.in.new.frame:
     text: 新規フレームでプロジェクトを開きますか ?
 prompt.overwrite.settings.file:
-    text: '''''{0}'''' を上書きしますか ?'
+    text: "''{0}'' を上書きしますか ?"
 prompt.please.select.project.jdk:
-    text: "プロジェクト JDK を選択してください。\nこの JDK はすべてのプロジェクト モジュールのデフォルトとして使用されます。"
+    text: |-
+        プロジェクト JDK を選択してください。
+        この JDK はすべてのプロジェクト モジュールのデフォルトとして使用されます。
 prompt.please.specify.java.sources.directory:
-    text: "プロジェクトの Java ソース ファイルが存在するディレクトリを指定してください。\nこのパスはデフォルト (ルート、名称未設定) パッケージに対応する必要があります。\n注意 : プログラムは、このディレクトリに位置する Java ソース ファイルのみを認識します。"
+    text: |-
+        プロジェクトの Java ソース ファイルが存在するディレクトリを指定してください。
+        このパスはデフォルト (ルート、名称未設定) パッケージに対応する必要があります。
+        注意 : プログラムは、このディレクトリに位置する Java ソース ファイルのみを認識します。
 prompt.please.specify.module.name:
     text: モジュール名を指定してください
 prompt.please.specify.module.name.and.content.root:
-    text: "モジュール名とコンテント ルートを指定してください。\nモジュール コンテント ルートは格納するモジュールが属するディレクトリです。"
+    text: |-
+        モジュール名とコンテント ルートを指定してください。
+        モジュール コンテント ルートは格納するモジュールが属するディレクトリです。
 prompt.relative.path.to.sources.empty:
-    text: "ソースへの相対パスがありません。\nモジュール コンテント ルート\n\"{0}\"\nをソース ディレクトリとしてマークしますか ?"
+    text: |-
+        ソースへの相対パスがありません。
+        モジュール コンテント ルート
+        "{0}"
+        をソース ディレクトリとしてマークしますか ?
 prompt.reload.file.from.disk:
     text: すべての変更を破棄して "{0}" をディスクから再度読み込みますか ?
 prompt.reset.to.original.template:
@@ -1039,9 +1095,13 @@ prompt.select.module.file.to.import:
 prompt.select.source.directory:
     text: ソース ディレクトリを選択してください
 prompt.specify.module.group.name:
-    text: "{0} を表示するグループ名を指定してください。\n\n"
+    text: |+
+        {0} を表示するグループ名を指定してください。
+
 prompt.specify.name.of.module.subgroup:
-    text: "{1} を表示するサブグループ {0} の名前を指定してください。\n\n"
+    text: |+
+        {1} を表示するサブグループ {0} の名前を指定してください。
+
 prompt.stop.searching.for.sources:
     text: '{0} がソースを検索しています。 検索を中止しますか ?'
 radio.create.new.module:
@@ -1101,7 +1161,13 @@ tab.structureview.jsp.view:
 template.copy.N.of.T:
     text: '{1} の {0} をコピー'
 template.default.class.comment:
-    text: "/*\n * 作成 : {0}\n * ユーザー : $USER$\n * 日付 : $DATE$\n * 時刻 : $TIME$\n */\n"
+    text: |
+        /*
+         * 作成 : {0}
+         * ユーザー : $USER$
+         * 日付 : $DATE$
+         * 時刻 : $TIME$
+         */
 template.unnamed:
     text: 名前未設定
 title.add.module:
@@ -1337,6 +1403,12 @@ unscramble.use.unscrambler.checkbox:
 unsupported.jvm.ea.message:
     text: Early Access Javaのバージョンで互換性の問題が発生することがあります。
 warning.delete.all.files.and.subdirectories:
-    text: "\n\"{0}\" のすべてのファイルとサブディレクトリを削除します。\nこの処理はやり直しできません。"
+    text: |4-
+
+        "{0}" のすべてのファイルとサブディレクトリを削除します。
+        この処理はやり直しできません。
 warning.delete.all.files.and.subdirectories.in.the.selected.directory:
-    text: "\n選択したディレクトリのすべてのファイルとサブディレクトリを削除します。\nこの処理はやり直しできません。"
+    text: |4-
+
+        選択したディレクトリのすべてのファイルとサブディレクトリを削除します。
+        この処理はやり直しできません。

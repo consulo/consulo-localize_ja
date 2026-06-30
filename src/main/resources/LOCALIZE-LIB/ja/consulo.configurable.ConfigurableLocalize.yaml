@@ -287,7 +287,9 @@ options.xml.attribute.descriptor.tag.data:
 options.xml.attribute.descriptor.tag.name:
     text: タグ名
 project.file.read.only.error.message:
-    text: "プロジェクト ファイルが読み取り専用です。\n設定はファイルを書き込み可能に変更するまで保存されません。"
+    text: |-
+        プロジェクト ファイルが読み取り専用です。
+        設定はファイルを書き込み可能に変更するまで保存されません。
 project.settings.short.name:
     text: プロジェクト
 properties.options.display.name:

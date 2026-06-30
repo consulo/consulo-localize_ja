@@ -1,13 +1,13 @@
 filetype.chooser.file.pattern:
     text: 'ファイル パターン:'
 filetype.chooser.prompt:
-    text: '拡張子 ''''{0}'''' は登録したファイル タイプと関連付けられていません 1 つ選択してください :'
+    text: "拡張子 ''{0}'' は登録したファイル タイプと関連付けられていません 1 つ選択してください :"
 filetype.chooser.title:
     text: 拡張子の登録
 filetype.description.archive.files:
     text: アーカイブ ファイル
 filetype.edit.add.pattern.exists.error:
-    text: このワイルドカードは、''{0}'' ファイルタイプ用に割当されており、再割り当てすることはできません
+    text: "このワイルドカードは、''{0}'' ファイルタイプ用に割当されており、再割り当てすることはできません"
 filetype.edit.add.pattern.exists.title:
     text: ワイルドカードを追加
 filetype.edit.add.pattern.reassign.button:

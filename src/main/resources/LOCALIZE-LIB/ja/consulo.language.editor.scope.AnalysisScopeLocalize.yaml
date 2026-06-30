@@ -61,7 +61,7 @@ checking.class.files:
 cyclic.dependencies.progress.text:
     text: 依存関係グラフをビルドしています
 cyclic.dependencies.scope.dialog.module.button:
-    text: モジュール ''{1}'' を {0}(&M)
+    text: "モジュール ''{1}'' を {0}(&M)"
 cyclic.dependencies.scope.dialog.project.button:
     text: プロジェクト全体を {0}(&P)
 cyclic.dependencies.scope.dialog.title:
@@ -71,7 +71,7 @@ cyclic.dependencies.tree.cycle.node.text:
 cyclic.dependencies.usage.view.initial.text:
     text: 左側のツリーから分析するパッケージを選択してください
 cyclic.dependencies.usage.view.root.node.text:
-    text: パッケージ ''{1}'' でのパッケージ ''{0}'' の使用
+    text: "パッケージ ''{1}'' でのパッケージ ''{0}'' の使用"
 dependencies.libraries.node.text:
     text: ライブラリ
 dependencies.tree.node.default.package.abbreviation:
@@ -87,7 +87,7 @@ error.packageset.pattern.expectations:
 error.packageset.position.parsing.error:
     text: 位置 {1} の {0}
 error.packageset.token.expectations:
-    text: 予期しない ''{0}''
+    text: "予期しない ''{0}''"
 find.dependencies.progress.text:
     text: 使用箇所を検索しています :{0}
 forward.dependencies.usage.view.initial.text:
@@ -99,7 +99,7 @@ mark.dependency.illegal.text:
 module.dependencies.cycle.node.text:
     text: 循環 {0}
 module.dependencies.scope.dialog.module.button:
-    text: モジュール ''{0}'' の検査(&M)
+    text: "モジュール ''{0}'' の検査(&M)"
 module.dependencies.scope.dialog.project.button:
     text: プロジェクト全体の検査(&P)
 module.dependencies.scope.dialog.title:
@@ -123,21 +123,21 @@ package.dependencies.test.node.text:
 package.dependencies.toolwindow.title:
     text: '{0} の依存関係'
 scope.directory:
-    text: ディレクトリ ''{0}''
+    text: "ディレクトリ ''{0}''"
 scope.display.name.allow.scope:
-    text: スコープ ''{1}'' でのスコープ ''{0}'' の使用を許可する
+    text: "スコープ ''{1}'' でのスコープ ''{0}'' の使用を許可する"
 scope.display.name.deny.scope:
-    text: スコープ ''{1}'' でのみスコープ ''{0}'' の使用を許可しない
+    text: "スコープ ''{1}'' でのみスコープ ''{0}'' の使用を許可しない"
 scope.file:
-    text: ファイル ''{0}''(&F)
+    text: "ファイル ''{0}''(&F)"
 scope.option.custom:
     text: カスタム スコープ(&S)
 scope.option.include.test.sources:
     text: テスト ソースを含める(&T)
 scope.option.module:
-    text: モジュール ''{0}''
+    text: "モジュール ''{0}''"
 scope.option.module.with.mnemonic:
-    text: モジュール ''{0}''(&M)
+    text: "モジュール ''{0}''(&M)"
 scope.option.uncommited.files:
     text: コミットされていないファイル
 scope.option.uncommitted.files:
@@ -149,7 +149,7 @@ scope.option.whole.project:
 scope.package:
     text: パッケージ {0}
 scope.project:
-    text: プロジェクト ''{0}''
+    text: "プロジェクト ''{0}''"
 scope.selected.files:
     text: 選択したファイル
 scope.virtual.files:

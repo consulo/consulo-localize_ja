@@ -149,7 +149,7 @@ remove.keymap.label:
 remove.shortcut.button:
     text: 削除(&R)
 second.stroke.panel.title:
-    text: '2 番目のストローク'
+    text: 2 番目のストローク
 shortcut.preview.ide.border.factory.title:
     text: ショートカット プレビュー
 shortcuts.column.name:

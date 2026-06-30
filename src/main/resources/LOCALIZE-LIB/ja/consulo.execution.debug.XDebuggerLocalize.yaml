@@ -7,7 +7,7 @@ debugger.hotswap.display.name:
 debugger.stepping.display.name:
     text: ステッピング
 node.text.ellipsis.truncated:
-    text: ...（長さ：{0}）
+    text: '...（長さ：{0}）'
 scope.block:
     text: ブロック
 scope.catch:

@@ -1,5 +1,5 @@
 add.0.to.dictionary:
-    text: タイプミス： ''{0}'' を辞書に保存
+    text: "タイプミス： ''{0}'' を辞書に保存"
 add.directory.description:
     text: 辞書を読み込むフォルダを平文の単語リストから追加する
 add.directory.title:
@@ -11,7 +11,7 @@ add.to.dictionary:
 change.to:
     text: タイプミス：変更する...
 change.to.0:
-    text: タイプミス： ''{0}''に変更
+    text: "タイプミス： ''{0}''に変更"
 class.name.with.mistakes:
     text: 間違いのあるクラス名
 dictionaries.panel.description:
@@ -23,11 +23,11 @@ directory.is.already.included:
 enter.simple.word:
     text: '単語を入力 :'
 entered.word.0.is.correct.you.no.need.to.add.this.in.list:
-    text: 単語 ''{0}'' は既に辞書にあります。
+    text: "単語 ''{0}'' は既に辞書にあります。"
 entered.word.0.is.mixed.cased.you.must.enter.simple.word:
-    text: 単語 ''{0}'' は混在しています。単純な単語に分割する
+    text: "単語 ''{0}'' は混在しています。単純な単語に分割する"
 exact.rename.to:
-    text: タイプミス：名前を ''{0}'' に変更してください
+    text: "タイプミス：名前を ''{0}'' に変更してください"
 field.name.with.mistakes:
     text: 間違いのあるフィールド名
 ignored.words:
@@ -57,7 +57,7 @@ property.value.with.mistakes:
 rename.to:
     text: タイプミス：名前を変更...
 rename.to.0:
-    text: タイプミス：名前を ''{0}''に変更
+    text: "タイプミス：名前を ''{0}''に変更"
 spellchecking.inspection.name:
     text: 打ち間違え
 spelling:
@@ -65,6 +65,6 @@ spelling:
 string.value.with.mistakes:
     text: ミスを伴うリテラル式
 typo.in.word.ref:
-    text: タイプミス：'#ref'の語の中にあります
+    text: "タイプミス：'#ref'の語の中にあります"
 user.dictionary:
     text: ユーザー辞書

@@ -51,13 +51,13 @@ checkbox.line.comment.at.first.column:
 checkbox.spaces.additive.operators:
     text: 加法演算子 (+、-)
 checkbox.spaces.after.colon:
-    text: ''':'' の後'
+    text: "':' の後"
 checkbox.spaces.after.colon.in.label.declaration:
-    text: ラベル宣言の ':' の後
+    text: "ラベル宣言の ':' の後"
 checkbox.spaces.after.comma:
     text: カンマの後
 checkbox.spaces.after.question:
-    text: '''?'' の後'
+    text: "'?' の後"
 checkbox.spaces.after.semicolon:
     text: セミコロンの後
 checkbox.spaces.after.type.cast:
@@ -71,13 +71,13 @@ checkbox.spaces.array.initializer.left.brace:
 checkbox.spaces.assignment.operators:
     text: 代入演算子 (=、+=、...)
 checkbox.spaces.before.colon:
-    text: ''':'' の前'
+    text: "':' の前"
 checkbox.spaces.before.comma:
     text: カンマの前
 checkbox.spaces.before.opening.angle.bracket:
     text: アングルブラケットを開く前に
 checkbox.spaces.before.question:
-    text: '''?'' の前'
+    text: "'?' の前"
 checkbox.spaces.before.semicolon:
     text: セミコロンの前
 checkbox.spaces.bitwise.operators:
@@ -195,7 +195,9 @@ title.code.style.settings.import:
 title.edit.global.settings:
     text: グローバル設定の編集(&G)
 title.global.code.style:
-    text: "グローバル\nコード スタイル"
+    text: |-
+        グローバル
+        コード スタイル
 title.import.scheme.chooser:
     text: インポートスキーム
 title.import.scheme.from:
