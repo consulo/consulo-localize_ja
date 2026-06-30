@@ -7,7 +7,7 @@ additional.classpath.tab.add.all.in.directory.button:
 additional.classpath.tab.classpath.border:
     text: 'クラスパス(&P):'
 ant.actual.attribute.value.additional.info.to.xml.attribute.error.message:
-    text: (実際の属性値 ''{0}'')
+    text: "(実際の属性値 ''{0}'')"
 ant.build.message.node.prefix.text:
     text: 'ビルド :'
 ant.build.progress.dialog.title:
@@ -23,7 +23,7 @@ ant.create.meta.target.action.description:
 ant.create.meta.target.action.name:
     text: メタ ターゲットの作成
 ant.create.target.intention.description:
-    text: ターゲット ''{0}'' の作成
+    text: "ターゲット ''{0}'' の作成"
 ant.element.role.ant.project.name:
     text: Ant プロジェクト名
 ant.element.role.macrodef.element:
@@ -57,7 +57,7 @@ ant.installation.not.configured.error.message:
 ant.intention.create.property.family.name:
     text: プロパティの作成
 ant.intention.create.property.text:
-    text: プロパティ定義 ''{0}'' の追加
+    text: "プロパティ定義 ''{0}'' の追加"
 ant.intention.create.target.family.name:
     text: ターゲットの作成
 ant.is.active.terminate.confirmation.text:
@@ -65,7 +65,7 @@ ant.is.active.terminate.confirmation.text:
 ant.jar.is.directory.error.message:
     text: '{0} はディレクトリです'
 ant.jar.not.found.in.directory.error.message:
-    text: ant.jar がディレクトリ ''{0}'' に見つかりません
+    text: "ant.jar がディレクトリ ''{0}'' に見つかりません"
 ant.process.is.active.terminate.confirmation.text:
     text: Ant プロセスはアクティブです。 Ant プロセスを中止しますか ?
 ant.properties.declaration.element.description:
@@ -145,7 +145,9 @@ cannot.add.ant.files.dialog.title:
 cannot.add.build.file.dialog.title:
     text: ビルド ファイルを追加できません
 cannot.add.build.files.from.excluded.directories.error.message:
-    text: "除外ディレクトリからのビルド ファイルを追加できません\n{0}"
+    text: |-
+        除外ディレクトリからのビルド ファイルを追加できません
+        {0}
 cannot.start.build.name.error.message:
     text: '{0} を開始できません'
 cant.add.file.error.message:
@@ -153,7 +155,7 @@ cant.add.file.error.message:
 cant.read.from.ant.jar.error.message:
     text: '{0} から読み込めません'
 cant.run.ant.ant.reference.is.not.configured.error.message:
-    text: ANT ''{0}'' は未設定です
+    text: "ANT ''{0}'' は未設定です"
 cant.run.ant.erorr.dialog.title:
     text: ANT を実行できません
 cant.run.ant.no.ant.configured.error.message:
@@ -197,9 +199,9 @@ filter.ant.targets.action.description:
 filter.ant.targets.action.name:
     text: ターゲットをフィルタ
 jdk.with.name.bad.configured.error.message:
-    text: JDK ''{0}'' の設定が不正です
+    text: "JDK ''{0}'' の設定が不正です"
 jdk.with.name.not.configured.error.message:
-    text: JDK ''{0}'' が設定されていません
+    text: "JDK ''{0}'' が設定されていません"
 lib.directory.not.found.in.ant.path.error.message:
     text: lib ディレクトリが {0} に見つかりません
 meta.target.build.sequence.name.display.name:
@@ -227,7 +229,9 @@ remove.selected.build.file.action.name:
 remove.selected.meta.targets.action.name:
     text: メタ ターゲットの削除
 remove.the.reference.to.file.confirmation.text:
-    text: "{0}\nへの参照を削除しますか ?"
+    text: |-
+        {0}
+        への参照を削除しますか ?
 rerun.ant.action.name:
     text: 再実行
 run.ant.build.action.name:

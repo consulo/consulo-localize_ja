@@ -43,9 +43,15 @@ dialog.edit.template.checkbox.smart.type.completion:
 dialog.edit.template.context.title:
     text: コンテキスト
 dialog.edit.template.error.already.exists:
-    text: "テンプレートを保存できません。\nテンプレートの略称 \"{0}\"\nは既にグループ \"{1}\" に存在します。\n他の略称をつけてください。"
+    text: |-
+        テンプレートを保存できません。
+        テンプレートの略称 "{0}"
+        は既にグループ "{1}" に存在します。
+        他の略称をつけてください。
 dialog.edit.template.error.malformed.abbreviation:
-    text: "テンプレートを保存できません。\nテンプレートの略称には文字、数値、およびドットのみ使用できます。"
+    text: |-
+        テンプレートを保存できません。
+        テンプレートの略称には文字、数値、およびドットのみ使用できます。
 dialog.edit.template.error.title:
     text: 保存できません
 dialog.edit.template.label.abbreviation:
@@ -73,9 +79,15 @@ dialog.intention.settings.description.usage.example.title:
 dialog.intention.settings.intention.list.title:
     text: インテンション リスト
 dialog.paste.on.import.text:
-    text: "貼り付けたコード フラグメントは、新しいコンテキストのインポートで\nアクセスできないクラスを使用しています。\n新規ファイルにインポートするクラスを選択してください。"
+    text: |-
+        貼り付けたコード フラグメントは、新しいコンテキストのインポートで
+        アクセスできないクラスを使用しています。
+        新規ファイルにインポートするクラスを選択してください。
 dialog.paste.on.import.text2:
-    text: "貼り付けたコード フラグメントは、新しいコンテキストのインポートで\nアクセスできない要素を使用しています。\n新規ファイルにインポートする要素を選択してください。"
+    text: |-
+        貼り付けたコード フラグメントは、新しいコンテキストのインポートで
+        アクセスできない要素を使用しています。
+        新規ファイルにインポートする要素を選択してください。
 dialog.reformat.files.optimize.imports.checkbox:
     text: インポートの最適化(&O)
 dialog.reformat.files.reformat.selected.files.label:
@@ -83,15 +95,17 @@ dialog.reformat.files.reformat.selected.files.label:
 dialog.reformat.files.title:
     text: ファイルの再フォーマット
 disable.intention.action:
-    text: '''''{0}'''' を無効にする'
+    text: "''{0}'' を無効にする"
 enable.intention.action:
-    text: '''''{0}'''' を有効にする'
+    text: "''{0}'' を有効にする"
 error.attempt.to.generate.constructor.for.anonymous.class:
     text: コンストラクタを匿名クラスに追加できません
 error.dialog.readonly.file.title:
     text: ファイルは読み取り専用です
 error.dialog.readonly.files.message:
-    text: "{0} には読み取り専用ファイルがあります。\nその他すべてのファイルを処理しますか ?"
+    text: |-
+        {0} には読み取り専用ファイルがあります。
+        その他すべてのファイルを処理しますか ?
 error.dialog.readonly.files.title:
     text: 読み取り専用ファイルは変更できません
 error.hint.file.is.readonly:
@@ -113,7 +127,9 @@ generate.equals.and.hashcode.already.defined.warning:
 generate.equals.and.hashcode.already.defined.warning.anonymous:
     text: "メソッド 'boolean equals(Object)' および 'int hashCode()' は既に\nこの匿名クラスで定義されています。 削除および続行しますか ?"
 generate.equals.and.hashcode.error.no.object.class.message:
-    text: "equals() と hashCode() を生成できません。\njava.lang.Object クラスがありません。"
+    text: |-
+        equals() と hashCode() を生成できません。
+        java.lang.Object クラスがありません。
 generate.equals.and.hashcode.error.no.object.class.title:
     text: java.lang.Object がありません
 generate.equals.hashcode.equals.fields.chooser.title:
@@ -169,7 +185,7 @@ i18nize.dialog.error.jdk.message:
 i18nize.dialog.error.jdk.title:
     text: クラスがありません
 i18nize.dialog.error.property.already.defined.message:
-    text: プロパティ ''{0}'' は既にファイル ''{1}'' に存在します
+    text: "プロパティ ''{0}'' は既にファイル ''{1}'' に存在します"
 i18nize.dialog.error.property.already.defined.title:
     text: プロパティは既に存在します
 i18nize.dialog.property.file.chooser.title:
@@ -185,7 +201,7 @@ inlay.hints.disable.action.text:
 inlay.hints.enable.action.text:
     text: パラメータ名のヒントを有効にする
 inlay.hints.show.settings:
-    text: メソッド '' {0} ''をブラックリストに追加...
+    text: "メソッド '' {0} ''をブラックリストに追加..."
 insert.code.template.command:
     text: コード テンプレートの挿入
 inspection.error.dialog.title:
@@ -195,7 +211,7 @@ inspection.i18n.display.name:
 inspection.i18n.expression.is.invalid.error.message:
     text: 国際化式テンプレートは有効な式ではありません
 inspection.i18n.message.general.with.value:
-    text: 'ハード コード文字列リテラル : ''''{0}'''''
+    text: "ハード コード文字列リテラル : ''{0}''"
 inspection.i18n.option.ignore.assert:
     text: アサート文引数の無視
 inspection.i18n.option.ignore.for.exception.constructor.arguments:
@@ -213,7 +229,7 @@ inspection.i18n.option.ignore.qualified.class.names:
 inspection.i18n.quickfix:
     text: ハード コード文字列リテラルの国際化
 inspection.unresolved.property.key.reference.message:
-    text: 文字列リテラル ''{0}'' は有効なプロパティ キーではありません
+    text: "文字列リテラル ''{0}'' は有効なプロパティ キーではありません"
 inspection.unresolved.property.key.reference.name:
     text: 無効なプロパティ キー
 intention.add.annotation.family:
@@ -221,23 +237,23 @@ intention.add.annotation.family:
 intention.add.on.demand.static.import.family:
     text: オンデマンド static インポートの追加
 intention.add.on.demand.static.import.text:
-    text: '''''{0}'''' のオンデマンド static インポートの追加'
+    text: "''{0}'' のオンデマンド static インポートの追加"
 intention.add.override.annotation:
-    text: '''@Override'' 注釈の追加'
+    text: "'@Override' 注釈の追加"
 intention.add.override.annotation.family:
     text: Override 注釈の追加
 intention.add.single.member.static.import.family:
     text: シングル メンバ static インポートの追加
 intention.add.single.member.static.import.text:
-    text: '''''{0}'''' の static インポートの追加'
+    text: "''{0}'' の static インポートの追加"
 intention.assign.field.from.parameter.family:
     text: フィールドへのパラメータ代入
 intention.assign.field.from.parameter.text:
-    text: フィールド ''{0}'' へのパラメータ代入
+    text: "フィールド ''{0}'' へのパラメータ代入"
 intention.create.field.from.parameter.family:
     text: パラメータ用のフィールド作成
 intention.create.field.from.parameter.text:
-    text: パラメータ ''{0}'' のフィールド作成
+    text: "パラメータ ''{0}'' のフィールド作成"
 intention.implement.abstract.class.default.text:
     text: 抽象クラスの実装
 intention.implement.abstract.class.family:
@@ -257,7 +273,7 @@ intention.implement.abstract.method.family:
 intention.implement.abstract.method.searching.for.descendants.progress:
     text: 子孫を検索しています...
 intention.implement.abstract.method.text:
-    text: メソッド ''{0}'' の実装
+    text: "メソッド ''{0}'' の実装"
 intention.invert.if.condition:
     text: If 条件を反転させる
 intention.make.type.generic.family:
@@ -271,7 +287,7 @@ intention.replace.concatenation.with.formatted.output.text:
 intention.settings:
     text: インテンション 設定
 intention.settings.category.text:
-    text: <html><body><font face="verdana" size="-1">  <center>インテンション カテゴリ ''<b>{0}</b>'' を選択しました。</center>  <center>チェックボックスをクリックして、このカテゴリ内のすべてのインテンションの有効/無効を切り替えます。</center>  <center>個別のインテンションの有効/無効を切り替えるには、このカテゴリの中のインテンションを選択します。</center>  </font></body></html>
+    text: "<html><body><font face=\"verdana\" size=\"-1\">  <center>インテンション カテゴリ ''<b>{0}</b>'' を選択しました。</center>  <center>チェックボックスをクリックして、このカテゴリ内のすべてのインテンションの有効/無効を切り替えます。</center>  <center>個別のインテンションの有効/無効を切り替えるには、このカテゴリの中のインテンションを選択します。</center>  </font></body></html>"
 intention.split.declaration.assignment.text:
     text: 宣言文と代入文に分解する
 intention.split.declaration.family:
@@ -281,7 +297,7 @@ intention.split.declaration.text:
 intention.split.if.family:
     text: If 文を分解する
 intention.split.if.text:
-    text: '2 つの If に分解する'
+    text: 2 つの If に分解する
 javadoc.action.back:
     text: 戻る
 javadoc.action.forward:
@@ -299,7 +315,9 @@ javadoc.description.copied.from.class:
 javadoc.description.copied.from.interface:
     text: 'インターフェイスからコピーする説明 :'
 javadoc.documentation.not.found.message:
-    text: "この要素のドキュメントはありません。\nAPI docs に必要なすべてのパスを [プロジェクト設定] で追加してください。"
+    text: |-
+        この要素のドキュメントはありません。
+        API docs に必要なすべてのパスを [プロジェクト設定] で追加してください。
 javadoc.documentation.not.found.title:
     text: ドキュメントなし
 javadoc.external.fetch.error.message:
@@ -395,13 +413,13 @@ process.reformat.code:
 process.scope.changed.files:
     text: VCSのみファイルを変更しました
 process.scope.directory:
-    text: ディレクトリ ''{0}''
+    text: "ディレクトリ ''{0}''"
 process.scope.file:
     text: ファイル {0}
 process.scope.module:
-    text: モジュール ''{0}''
+    text: "モジュール ''{0}''"
 process.scope.project:
-    text: プロジェクト ''{0}''
+    text: "プロジェクト ''{0}''"
 progress.text.optimizing.imports:
     text: インポートを最適化しています...
 quick.definition.back:
@@ -415,7 +433,7 @@ quick.definition.show.source:
 quickfix.add.variable.family.name:
     text: 変数の初期化
 quickfix.add.variable.text:
-    text: 変数 ''{0}'' の初期化
+    text: "変数 ''{0}'' の初期化"
 quickfix.i18n.command.name:
     text: 国際化
 quickfix.i18n.concatentation:
@@ -487,12 +505,12 @@ templates.export.display.name:
 templates.no.defined:
     text: コンテキストに定義されたテンプレートはありません
 templates.no.defined.with.prefix:
-    text: コンテキストに定義された ''{0}'' で始まるテンプレートはありません
+    text: "コンテキストに定義された ''{0}'' で始まるテンプレートはありません"
 templates.select.template.chooser.title:
     text: テンプレートの選択
 templates.settings.page.title:
     text: ライブ テンプレート
 unknown.encoding.0:
-    text: '不明なエンコード: ''''{0}'''''
+    text: "不明なエンコード: ''{0}''"
 xml.tag.info.no.attributes:
     text: <属性なし>

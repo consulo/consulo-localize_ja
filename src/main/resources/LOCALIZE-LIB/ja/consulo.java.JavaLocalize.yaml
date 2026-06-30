@@ -15,7 +15,7 @@ class.file.open.source.action:
 dependencies.tree.node.default.package.abbreviation:
     text: <デフォルト パッケージ>
 error.package.already.contains.package.html:
-    text: パッケージ '' {0} ''はすでに '' package.html ''ファイルを持っています。
+    text: "パッケージ '' {0} ''はすでに '' package.html ''ファイルを持っています。"
 error.package.html.found.title:
     text: 「package.html」が見つかりました
 inspection.default.annotation.param:

@@ -29,7 +29,7 @@ artifacts.add.copy.action:
 artifacts.create.action:
     text: '{0}を作成する'
 banner.slogan.artifact.0:
-    text: アーティファクト{0} ''
+    text: "アーティファクト{0} ''"
 button.add:
     text: 追加
 button.remove:
@@ -45,7 +45,7 @@ button.text.remove.selected:
 checkbox.text.build.on.make:
     text: プロジェクトビルドに含める
 choose.modules.dialog.description:
-    text: ライブラリ '' {0} ''が選択されたモジュールに追加されます。
+    text: "ライブラリ '' {0} ''が選択されたモジュールに追加されます。"
 choose.modules.dialog.title:
     text: モジュールを選択
 classpath.add.library.action:
@@ -61,7 +61,7 @@ classpath.chooser.description.add.module.dependency:
 classpath.chooser.title.add.module.dependency:
     text: モジュールを選択
 classpath.message.library.already.added:
-    text: ライブラリ '' {0} ''は既にこのモジュールに追加されています
+    text: "ライブラリ '' {0} ''は既にこのモジュールに追加されています"
 classpath.panel.analyze:
     text: 分析する
 classpath.panel.navigate.action.text:
@@ -75,7 +75,7 @@ combobox.item.module.library:
 combobox.item.project.library:
     text: プロジェクトライブラリ
 confirmation.message.would.you.like.to.ignore.facet:
-    text: ファセット '' {0} ''をモジュール '' {1} ''から無視しますか？
+    text: "ファセット '' {0} ''をモジュール '' {1} ''から無視しますか？"
 copy.module.dialog.title:
     text: コピーモジュール
 dependencies.used.in.popup.title:
@@ -117,7 +117,7 @@ error.message.configuration.cannot.load:
 error.message.facet.type.isn.t.specified:
     text: ファセットタイプが指定されていません
 error.message.unknown.facet.type.0:
-    text: 不明なファセットタイプ： '' {0} ''
+    text: "不明なファセットタイプ： '' {0} ''"
 external.annotation.prompt:
     text: 外部注釈プロンプト
 external.annotations.external.option:
@@ -149,7 +149,7 @@ library.attach.files.action:
 library.attach.files.description:
     text: ライブラリのクラス、ソース、ドキュメントが配置されているファイルまたはディレクトリを選択する
 library.attach.files.to.library.action:
-    text: ファイルまたはディレクトリをライブラリ '' {0} 'に添付
+    text: "ファイルまたはディレクトリをライブラリ '' {0} 'に添付"
 library.attach.sources.action:
     text: ソースを添付
 library.attach.sources.action.busy.text:
@@ -185,13 +185,13 @@ library.root.node:
 library.sources.node:
     text: ソース
 loading.components.for:
-    text: ''''' {0} ''''のコンポーネントの読み込み中...'
+    text: "'' {0} ''のコンポーネントの読み込み中..."
 message.no.module.dependency.candidates:
     text: 依存するモジュールが見つかりませんでした
 message.text.stop.searching.for.frameworks:
     text: '{0}は現在フレームワークを探しています。'
 module.0.already.exists.error.message:
-    text: モジュール '' {0} ''は既に存在します
+    text: "モジュール '' {0} ''は既に存在します"
 module.add.action:
     text: 追加
 module.add.error.message:
@@ -199,9 +199,9 @@ module.add.error.message:
 module.add.error.title:
     text: モジュールの追加
 module.already.exists.error:
-    text: モジュール '' {0} ''はプロジェクトに既に存在します。
+    text: "モジュール '' {0} ''はプロジェクトに既に存在します。"
 module.cannot.load.error:
-    text: モジュールファイル '' {0} ''を読み込めません：
+    text: "モジュールファイル '' {0} ''を読み込めません："
 module.classpath.button.edit:
     text: 編集...
 module.classpath.button.move.down:
@@ -209,7 +209,7 @@ module.classpath.button.move.down:
 module.classpath.button.move.up:
     text: 上に移動
 module.group.banner.text:
-    text: モジュールグループ '' {0} ''
+    text: "モジュールグループ '' {0} ''"
 module.javadoc.add.path.prompt:
     text: モジュールのjavadocドキュメントがあるJAR / zipファイルまたはディレクトリを選択する
 module.javadoc.add.path.title:
@@ -289,7 +289,7 @@ module.remove.action:
 module.remove.command:
     text: モジュールをプロジェクトから切り離す
 module.remove.from.project.confirmation:
-    text: モジュール '' {0} ''をプロジェクトから削除しますか？
+    text: "モジュール '' {0} ''をプロジェクトから削除しますか？"
 module.sdk.not.defined:
     text: モジュールSDKが定義されていません
 module.toggle.excluded.action:
@@ -315,7 +315,7 @@ modules.order.export.title:
 output.tab.title:
     text: 出力
 path.0.is.invalid.error.message:
-    text: パス '' {0} ''は無効です
+    text: "パス '' {0} ''は無効です"
 progress.text.searching.frameworks:
     text: フレームワークの検索
 project.configuration.save.file.not.found:
@@ -423,7 +423,7 @@ project.reload.failed:
 project.reload.failed.title:
     text: リロードエラー
 project.reload.write.failed:
-    text: ファイル '' {0} 'に書き込み中にエラーが発生しました。
+    text: "ファイル '' {0} 'に書き込み中にエラーが発生しました。"
 project.reload.write.failed.title:
     text: 書き込みエラー
 project.roots.classpath.format.label:
@@ -433,9 +433,9 @@ project.roots.display.name:
 project.roots.external.annotations.tab.title:
     text: 外部注釈
 project.roots.library.problem.message:
-    text: 依存リスト内の無効なアイテム '' {0} ''
+    text: "依存リスト内の無効なアイテム '' {0} ''"
 project.roots.module.banner.text:
-    text: モジュール '' {0} ''
+    text: "モジュール '' {0} ''"
 project.roots.module.duplicate.name.message:
     text: モジュール名が重複しています
 project.roots.module.groups.text:
@@ -451,13 +451,13 @@ project.roots.plain.mode.action.text.disabled:
 project.roots.plain.mode.action.text.enabled:
     text: モジュールグループを表示する
 project.roots.project.banner.text:
-    text: プロジェクト '' {0} 'の一般設定
+    text: "プロジェクト '' {0} 'の一般設定"
 project.roots.project.display.name:
     text: プロジェクト
 project.roots.project.jdk.inherited:
     text: プロジェクトSDK
 project.roots.replace.library.entry.message:
-    text: 本当に古いライブラリ '' {0} ''を置き換えますか？
+    text: "本当に古いライブラリ '' {0} ''を置き換えますか？"
 project.roots.replace.library.entry.title:
     text: 既に追加されたライブラリ
 project.save.error:
@@ -473,7 +473,7 @@ rename.message.prefix.scope:
 rename.scope.title:
     text: スコープの名前を変更します。
 sdk.configuration.exception:
-    text: SDK '' {0} ''は無効です。
+    text: "SDK '' {0} ''は無効です。"
 sdk.configure.annotations.tab:
     text: 注釈
 sdk.configure.editor.title:
@@ -497,7 +497,7 @@ sdk.configure.title:
 sdk.configure.type.home.path:
     text: '{0}ホームパス：'
 sdk.java.corrupt.error:
-    text: おそらく、 '' {0} ''にインストールされたSDKが壊れています
+    text: "おそらく、 '' {0} ''にインストールされたSDKが壊れています"
 sdk.java.corrupt.title:
     text: SDKのバージョンを検出できません
 sdk.java.name.template:

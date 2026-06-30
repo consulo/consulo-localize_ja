@@ -15,7 +15,7 @@ interface.is.implemented.too.many:
 method.implements:
     text: メソッドを {1} に実装します
 method.implements.in:
-    text: メソッド ''{0}'' を {1} に実装します
+    text: "メソッド ''{0}'' を {1} に実装します"
 method.is.implemented.header:
     text: は次に実装されました。<br>
 method.is.implemented.too.many:
@@ -27,7 +27,7 @@ method.is.overriden.header:
 method.overrides:
     text: メソッドを {1} にオーバーライドします
 method.overrides.in:
-    text: メソッド ''{0}'' を {1} にオーバーライドします
+    text: "メソッド ''{0}'' を {1} にオーバーライドします"
 navigation.title.implementation.method:
     text: '{0} の実装を選択してください'
 navigation.title.overrider.method:

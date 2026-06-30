@@ -9,7 +9,7 @@ tools.before.run.provider.name:
 tools.caption:
     text: 'ツール :'
 tools.completed.message:
-    text: 外部ツール ''{0}'' は終了コード {1} で完了しました
+    text: "外部ツール ''{0}'' は終了コード {1} で完了しました"
 tools.copy.button:
     text: コピー(&C)...
 tools.copy.title:

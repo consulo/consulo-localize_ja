@@ -1,5 +1,5 @@
 annotation.name.is.missing:
-    text: 注釈属性は 'name = value'の形式でなければなりません
+    text: "注釈属性は 'name = value'の形式でなければなりません"
 anonymous.class.context.display:
     text: '{0} の匿名'
 anonymous.class.derived.display:
@@ -7,51 +7,51 @@ anonymous.class.derived.display:
 bound.not.expected:
     text: 予期しない境界
 catch.without.try:
-    text: '''試し''なしの ''キャッチ'''
+    text: "'試し'なしの 'キャッチ'"
 default.language.level.description:
     text: SDKのデフォルト
 else.without.if:
-    text: '''else''を除いて ''if'''
+    text: "'else'を除いて 'if'"
 expected.array.initializer:
     text: 配列初期化子が必要です
 expected.boolean.expression:
     text: ブール式が期待される
 expected.catch.or.finally:
-    text: '''キャッチ''または ''最終的に''期待'
+    text: "'キャッチ'または '最終的に'期待"
 expected.class.or.interface:
-    text: '''class''または ''interface''が必要です'
+    text: "'class'または 'interface'が必要です"
 expected.class.reference:
     text: クラス参照が必要です
 expected.colon:
-    text: '''：''は期待しています'
+    text: "'：'は期待しています"
 expected.comma:
-    text: '''、''予想通り'
+    text: "'、'予想通り"
 expected.comma.or.rparen:
-    text: '''、''または ''）''が必要です'
+    text: "'、'または '）'が必要です"
 expected.comma.or.semicolon:
-    text: '''、''または '';'''
+    text: "'、'または ';'"
 expected.eq:
-    text: '''=''が必要です'
+    text: "'='が必要です"
 expected.expression:
     text: 表現が期待される
 expected.gt:
-    text: '''>''が必要です。'
+    text: "'>'が必要です。"
 expected.gt.or.comma:
-    text: '''>''または ''、''が必要です'
+    text: "'>'または '、'が必要です"
 expected.identifier:
     text: 識別子が必要です
 expected.identifier.or.type:
     text: 予想される識別子またはタイプ
 expected.lbrace:
-    text: '''{''が予想されます'
+    text: "'{'が予想されます"
 expected.lbrace.or.semicolon:
-    text: '''{''または'';''が予想されます'
+    text: "'{'または';'が予想されます"
 expected.lbracket:
-    text: '''[''が予想されます'
+    text: "'['が予想されます"
 expected.lparen:
-    text: '''（''が予想されます'
+    text: "'（'が予想されます"
 expected.lparen.or.lbracket:
-    text: '''（''または ''[''が予想されます'
+    text: "'（'または '['が予想されます"
 expected.module.declaration:
     text: モジュール宣言が必要です
 expected.module.statement:
@@ -61,15 +61,15 @@ expected.package.reference:
 expected.parameter:
     text: パラメータが必要です
 expected.rbrace:
-    text: '''}''が予想されます'
+    text: "'}'が予想されます"
 expected.rbracket:
-    text: ''']''が予想されます'
+    text: "']'が予想されます"
 expected.resource:
     text: リソース定義が必要です
 expected.rparen:
-    text: '''）''が予想されます'
+    text: "'）'が予想されます"
 expected.semicolon:
-    text: ''';''が予想されます'
+    text: "';'が予想されます"
 expected.statement:
     text: ステートメントが期待される
 expected.type:
@@ -79,9 +79,9 @@ expected.type.parameter:
 expected.value:
     text: 予想される値
 expected.while:
-    text: '''期待している間に'''
+    text: "'期待している間に'"
 expected.with:
-    text: '''with''が期待される'
+    text: "'with'が期待される"
 feature.annotations:
     text: 注釈
 feature.binary.literals:
@@ -95,7 +95,7 @@ feature.for.each:
 feature.generics:
     text: ジェネリックス
 feature.hex.fp.literals:
-    text: '16進浮動小数点リテラル'
+    text: 16進浮動小数点リテラル
 feature.lambda.expressions:
     text: ラムダ式
 feature.method.references:
@@ -119,9 +119,9 @@ feature.underscores.in.literals:
 feature.varargs:
     text: 可変アリティメソッド
 finally.without.try:
-    text: '''finally''を ''try''なしで'
+    text: "'finally'を 'try'なしで"
 import.statement.identifier.or.asterisk.expected.:
-    text: 識別子または '*'が必要です
+    text: "識別子または '*'が必要です"
 javadoc.exception.tag.class.is.not.throwable:
     text: クラス{0}はThrowableの子孫ではありません
 javadoc.exception.tag.exception.is.not.thrown:
@@ -131,7 +131,7 @@ javadoc.exception.tag.wrong.tag.value:
 javadoc.param.tag.parameter.name.expected:
     text: パラメーター名が必要です
 javadoc.param.tag.type.parameter.gt.expected:
-    text: '''>''は期待されています'
+    text: "'>'は期待されています"
 javadoc.param.tag.type.parameter.name.expected:
     text: タイプパラメータ名が必要です
 javadoc.value.field.required:

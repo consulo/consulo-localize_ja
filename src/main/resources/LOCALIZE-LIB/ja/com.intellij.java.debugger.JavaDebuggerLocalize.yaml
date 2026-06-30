@@ -25,7 +25,7 @@ add.field.breakpoint.dialog.classchooser.title:
 add.field.breakpoint.dialog.title:
     text: フィールドのウォッチポイントを追加
 add.instance.filter.dialog.error.numeric.value.expected:
-    text: インスタンス ID は 'long' 型の数値です
+    text: "インスタンス ID は 'long' 型の数値です"
 add.instance.filter.dialog.prompt:
     text: 'インスタンス ID の入力 :'
 add.instance.filter.dialog.title:
@@ -35,7 +35,7 @@ async.stacktraces.configurable.display.name:
 breakpoint.any.exception.display.name:
     text: 任意の例外
 breakpoint.exception.breakpoint.display.name:
-    text: 例外ブレークポイント、クラス ''{0}''
+    text: "例外ブレークポイント、クラス ''{0}''"
 breakpoint.manager.action.view.breakpoints.text:
     text: プロパティ
 breakpoint.properties.panel.option.catch.class.filters:
@@ -135,7 +135,7 @@ error.array.renderer.configurable.end.index.less.than.start:
 error.array.renderer.configurable.start.index.less.than.zero:
     text: 開始インデックスが0より小さい
 error.breakpoint.file.not.found:
-    text: ファイル ''{0}'' がありません。このファイルのブレークポイントは無視されます
+    text: "ファイル ''{0}'' がありません。このファイルのブレークポイントは無視されます"
 error.cannot.build.node.children.object.collected:
     text: 子孫を評価できません。オブジェクトを収集しました。 {0}
 error.cannot.create.expression.from.code.fragment:
@@ -143,7 +143,7 @@ error.cannot.create.expression.from.code.fragment:
 error.cannot.create.void.value:
     text: void 値を作成できません
 error.cannot.load.breakpoint.file:
-    text: ファイル ''{0}'' を読み込めません。このファイルのブレークポイントは無視されます
+    text: "ファイル ''{0}'' を読み込めません。このファイルのブレークポイントは無視されます"
 error.cannot.open.debugger.port:
     text: デバッガのポートを開けません
 error.class.circularity.error:
@@ -157,9 +157,12 @@ error.class.not.loaded:
 error.context.has.changed:
     text: コンテキストが変更され、操作ができません
 error.debug.connector.not.found:
-    text: 'トランスポート ''''{0}'''' を使用して接続できません : 必要な接続がありません。 JDK インストールを確認してください。'
+    text: "トランスポート ''{0}'' を使用して接続できません : 必要な接続がありません。 JDK インストールを確認してください。"
 error.debug.libraries.missing:
-    text: "デバッグ ライブラリが JDK ホームにありません。\nデバッガを開始するには、ライブラリをインストールする必要があります。\n次を参照してください。http://java.sun.com/products/jpda"
+    text: |-
+        デバッグ ライブラリが JDK ホームにありません。
+        デバッガを開始するには、ライブラリをインストールする必要があります。
+        次を参照してください。http://java.sun.com/products/jpda
 error.debugger.already.listening:
     text: デバッガは既に監視しています
 error.early.return:
@@ -167,7 +170,10 @@ error.early.return:
 error.evaluating.breakpoint.condition.or.action:
     text: "VM イベント処理中の問題 :\nブレークポイント : ''{0}''\nエラー : {1}\nブレークポイントで中断しますか ?"
 error.exception.while.connecting:
-    text: "リモート プロセスへの接続エラー。\n例外が発生しました : {0}\n例外メッセージ : {1}"
+    text: |-
+        リモート プロセスへの接続エラー。
+        例外が発生しました : {0}
+        例外メッセージ : {1}
 error.exception.while.reloading:
     text: 'クラスの再読み込み中の例外 : {0} : {1}'
 error.executing.finally:
@@ -189,21 +195,21 @@ error.invalid.breakpoint.bad.line.number:
 error.invalid.breakpoint.method.not.found:
     text: メソッドがクラス {0} にありません
 error.invalid.breakpoint.missing.field.in.class:
-    text: クラス ''{1}'' にフィールド ''{0}'' がありません
+    text: "クラス ''{1}'' にフィールド ''{0}'' がありません"
 error.invalid.breakpoint.no.executable.code:
     text: 実行コードがクラス {1} の行 {0} にありません
 error.invalid.breakpoint.source.changed:
     text: ソース コードが変更しました
 error.invalid.field.name:
-    text: 無効なフィールド名 ''{0}''
+    text: "無効なフィールド名 ''{0}''"
 error.invalid.jdk.home:
     text: 無効な JDK ホーム ディレクトリが指定されました。{0}
 error.invalid.local.variable.name:
-    text: 無効なローカル変数名 ''{0}''
+    text: "無効なローカル変数名 ''{0}''"
 error.invalid.stackframe:
     text: 内部例外 - 無効なスタックフレーム
 error.invalid.type.name:
-    text: 無効なタイプ名 ''{0}''
+    text: "無効なタイプ名 ''{0}''"
 error.io.error:
     text: I/O エラー
 error.modification.watchpoints.not.supported:
@@ -229,7 +235,9 @@ error.text.invalid.port:
 error.threads.export.dialog.file.already.exists:
     text: "ファイル\n\\''{0}''\nは、既に存在します。 上書きしますか ?"
 error.threads.export.dialog.file.is.directory:
-    text: "指定したファイルはディレクトリです。\n正しいファイル名を指定してください。"
+    text: |-
+        指定したファイルはディレクトリです。
+        正しいファイル名を指定してください。
 error.unable.to.evaluate.capture.expression:
     text: キャプチャキー式を評価できません：{0}
 error.unable.to.evaluate.expression:
@@ -261,27 +269,27 @@ evaluation.error.array.reference.expected:
 evaluation.error.array.type.expected:
     text: 配列タイプが必要です
 evaluation.error.boolean.condition.expected:
-    text: '''''boolean'''' 値が条件内に必要です'
+    text: "''boolean'' 値が条件内に必要です"
 evaluation.error.boolean.expected:
     text: Boolean 値が必要です
 evaluation.error.boolean.value.expected.in.condition:
-    text: '''boolean'' 値が条件内に必要です'
+    text: "'boolean' 値が条件内に必要です"
 evaluation.error.cannot.cast.boolean:
-    text: boolean 値を ''{0}'' にキャストできません
+    text: "boolean 値を ''{0}'' にキャストできません"
 evaluation.error.cannot.cast.char:
-    text: char 値を ''{0}'' にキャストできません
+    text: "char 値を ''{0}'' にキャストできません"
 evaluation.error.cannot.cast.null:
-    text: NULL を ''{0}'' にキャストできません
+    text: "NULL を ''{0}'' にキャストできません"
 evaluation.error.cannot.cast.numeric:
-    text: numeric 値を ''{0}'' にキャストできません
+    text: "numeric 値を ''{0}'' にキャストできません"
 evaluation.error.cannot.cast.object:
-    text: ''''' {0} ''''を '''' {1} ''''にキャストできません'
+    text: "'' {0} ''を '' {1} ''にキャストできません"
 evaluation.error.cannot.evaluate.array.initializer:
     text: 配列初期化子を評価できません
 evaluation.error.cannot.evaluate.class.type:
     text: クラス タイプを評価できません
 evaluation.error.cannot.evaluate.qualifier:
-    text: 限定子 ''{0}'' を評価できません
+    text: "限定子 ''{0}'' を評価できません"
 evaluation.error.cannot.evaluate.tostring:
     text: '{0}.toString() を評価できません'
 evaluation.error.cannot.find.stackframe.source:
@@ -289,33 +297,33 @@ evaluation.error.cannot.find.stackframe.source:
 evaluation.error.cannot.initialize.array:
     text: 配列を初期化できません
 evaluation.error.cannot.resolve.class:
-    text: クラス ''{0}'' を解決できません
+    text: "クラス ''{0}'' を解決できません"
 evaluation.error.cannot.resolve.constructor:
-    text: コンストラクタ ''{0}'' を解決できません
+    text: "コンストラクタ ''{0}'' を解決できません"
 evaluation.error.cannot.resolve.field.class:
-    text: フィールド ''{0}'' を格納するクラスを解決できません
+    text: "フィールド ''{0}'' を格納するクラスを解決できません"
 evaluation.error.cannot.sources.for.field.class:
-    text: フィールド ''{0}'' を格納するクラスのリソースがありません
+    text: "フィールド ''{0}'' を格納するクラスのリソースがありません"
 evaluation.error.class.not.loaded:
-    text: クラス ''{0}'' は読み込まれていません
+    text: "クラス ''{0}'' は読み込まれていません"
 evaluation.error.class.or.array.expected:
-    text: クラスまたは配列タイプは、フィールド ''{0}'' の評価に必要です。
+    text: "クラスまたは配列タイプは、フィールド ''{0}'' の評価に必要です。"
 evaluation.error.debug.info.unavailable:
     text: デバッグ情報は利用できません
 evaluation.error.empty.code.fragment:
     text: コード フラグメントが必要です
 evaluation.error.evaluating.field:
-    text: 'フィールドの評価エラー : ''''{0}'''''
+    text: "フィールドの評価エラー : ''{0}''"
 evaluation.error.evaluating.method:
-    text: 'メソッドの評価エラー : ''''{0}'''''
+    text: "メソッドの評価エラー : ''{0}''"
 evaluation.error.identifier.expected:
-    text: '''''{0}'''' の代わりの識別子が必要です'
+    text: "''{0}'' の代わりの識別子が必要です"
 evaluation.error.incompatible.array.initializer.type:
     text: 初期化子の型は、配列コンポーネント タイプと代入互換がありません
 evaluation.error.incompatible.types:
-    text: '''''{0}'''' 演算に非互換の型です'
+    text: "''{0}'' 演算に非互換の型です"
 evaluation.error.incompatible.variable.initializer.type:
-    text: '''''{0}'''' の初期化子は非互換の型です'
+    text: "''{0}'' の初期化子は非互換の型です"
 evaluation.error.inconsistent.debug.info:
     text: デバッグ情報が矛盾しています
 evaluation.error.integer.expected:
@@ -329,23 +337,23 @@ evaluation.error.invalid.expression:
 evaluation.error.invalid.index.expression:
     text: 無効なインデックスの式
 evaluation.error.invalid.this.expression:
-    text: '''''{0}'''' を ''''{1}'''' に ''''this'''' として代替できません'
+    text: "''{0}'' を ''{1}'' に ''this'' として代替できません"
 evaluation.error.invalid.type.name:
-    text: '無効なタイプ名 : ''''{0}'''''
+    text: "無効なタイプ名 : ''{0}''"
 evaluation.error.lambda.evaluation.not.supported:
     text: ラムダ評価はサポートされていません
 evaluation.error.lebeled.loops.not.found:
-    text: ラベル ''{0}'' でループ文がラベルされていません
+    text: "ラベル ''{0}'' でループ文がラベルされていません"
 evaluation.error.local.variable.declarations.not.supported:
     text: ローカル変数宣言は、ここではサポートされません。
 evaluation.error.local.variable.missing:
-    text: ローカル変数 ''{0}'' がありません
+    text: "ローカル変数 ''{0}'' がありません"
 evaluation.error.local.variable.missing.from.class.closure:
-    text: ローカル変数 ''{0}'' はクラス クロージャにありません
+    text: "ローカル変数 ''{0}'' はクラス クロージャにありません"
 evaluation.error.method.exception:
-    text: メソッドは ''{0}'' 例外をスローしました。
+    text: "メソッドは ''{0}'' 例外をスローしました。"
 evaluation.error.method.not.found:
-    text: メソッド ''{0}'' がありません
+    text: "メソッド ''{0}'' がありません"
 evaluation.error.method.reference.evaluation.not.supported:
     text: メソッド参照評価はサポートされていません
 evaluation.error.multi.dimensional.arrays.creation.not.supported:
@@ -353,15 +361,15 @@ evaluation.error.multi.dimensional.arrays.creation.not.supported:
 evaluation.error.nested.evaluation:
     text: 他のメソッドの評価中での評価はサポートされていません
 evaluation.error.no.instance.field:
-    text: 'そのようなインスタンス フィールドはありません : ''''{0}'''''
+    text: "そのようなインスタンス フィールドはありません : ''{0}''"
 evaluation.error.no.instance.method:
-    text: 'そのようなインスタンス メソッドはありません : ''''{0}'''''
+    text: "そのようなインスタンス メソッドはありません : ''{0}''"
 evaluation.error.no.stackframe:
     text: '評価できません : スタックフレームは利用できません'
 evaluation.error.no.static.field:
-    text: 'そのような静的フィールドはありません : ''''{0}'''''
+    text: "そのような静的フィールドはありません : ''{0}''"
 evaluation.error.no.static.method:
-    text: 'そのような静的メソッドはありません : ''''{0}'''''
+    text: "そのような静的メソッドはありません : ''{0}''"
 evaluation.error.not.lvalue:
     text: 代入式の左辺が値ではありません
 evaluation.error.not.rvalue:
@@ -375,11 +383,11 @@ evaluation.error.object.reference.expected:
 evaluation.error.objref.expected:
     text: '{0} の代わりにオブジェクト参照が必要です'
 evaluation.error.operation.not.supported:
-    text: 操作 ''{0}'' はサポートされていません
+    text: "操作 ''{0}'' はサポートされていません"
 evaluation.error.process.exited:
     text: '評価できません : プロセスは終了しました'
 evaluation.error.qualifier.type.unknown:
-    text: '''''{0}'''' のタイプが不明です'
+    text: "''{0}'' のタイプが不明です"
 evaluation.error.reference.type.expected:
     text: 参照タイプが必要です
 evaluation.error.sources.out.of.sync:
@@ -387,11 +395,11 @@ evaluation.error.sources.out.of.sync:
 evaluation.error.stack.frame.unavailable:
     text: スタックフレームは利用できません
 evaluation.error.statement.not.supported:
-    text: ステートメント ''{0}'' はサポートされていません
+    text: "ステートメント ''{0}'' はサポートされていません"
 evaluation.error.surrounded.expression.null:
     text: 囲まれた式は NULL です
 evaluation.error.this.not.avalilable:
-    text: '''this'' は利用できません'
+    text: "'this' は利用できません"
 evaluation.error.thread.not.at.breakpoint:
     text: '評価できません : スレッドはブレークポイントで一時停止しません'
 evaluation.error.thread.resumed:
@@ -405,13 +413,13 @@ evaluation.error.unsupported.declaration:
 evaluation.error.unsupported.expression.type:
     text: サポートされない式タイプ
 evaluation.error.variable.already.declared:
-    text: 変数 ''{0}'' は既に宣言されています
+    text: "変数 ''{0}'' は既に宣言されています"
 evaluation.error.variable.not.declared:
-    text: 変数 ''{0}'' が宣言されていません
+    text: "変数 ''{0}'' が宣言されていません"
 exception.breakpoint.console.message:
-    text: 例外 ''{0}'' が発生しました
+    text: "例外 ''{0}'' が発生しました"
 exception.breakpoint.console.message.with.thread.info:
-    text: 例外 ''{0}'' がスレッド ''{1}'' で発生しました
+    text: "例外 ''{0}'' がスレッド ''{1}'' で発生しました"
 exception.breakpoints.tab.title:
     text: 例外ブレークポイント
 export.dialog.copy.action.description:
@@ -431,7 +439,7 @@ instance.filters.dialog.instance.filters.group:
 instance.filters.dialog.title:
     text: インスタンス フィルタ
 internal.error.locations.of.line:
-    text: '''''{0}'''' からのデバッグ情報の読み込み時の内部エラー  ブレークポイントはこのクラスでは利用できません'
+    text: "''{0}'' からのデバッグ情報の読み込み時の内部エラー  ブレークポイントはこのクラスでは利用できません"
 label.add.field.breakpoint.dialog.field.name:
     text: 'フィールド名 :'
 label.add.field.breakpoint.dialog.fq.name:
@@ -445,7 +453,7 @@ label.array.renderer.configurable.max.count2:
 label.array.renderer.configurable.start.index:
     text: '配列開始インデックス(&R):'
 label.base.renderer.configurable.all.overriding:
-    text: '''toString（）''メソッドをオーバーライドするすべてのクラス'
+    text: "'toString（）'メソッドをオーバーライドするすべてのクラス"
 label.base.renderer.configurable.alternate.view:
     text: コレクション クラスの代替ビュー(&C)
 label.base.renderer.configurable.autoscroll:
@@ -453,7 +461,7 @@ label.base.renderer.configurable.autoscroll:
 label.base.renderer.configurable.classes.from.list:
     text: 'リストからのクラス :'
 label.base.renderer.configurable.enable.toString:
-    text: '''toString（）''オブジェクトビューを有効にする：'
+    text: "'toString（）'オブジェクトビューを有効にする："
 label.base.renderer.configurable.hide.null.array.elements:
     text: NULL 配列要素を非表示にする(&N)
 label.base.renderer.configurable.show.hex.value:
@@ -573,7 +581,7 @@ label.named.children.configurable.table.header.column.name:
 label.node.descendands.expression:
     text: 'ノード子孫の式(&D):'
 label.thread.node.thread.collected:
-    text: スレッド ''{0}'' はガベージ コレクトされています
+    text: "スレッド ''{0}'' はガベージ コレクトされています"
 label.threads.export.dialog.file:
     text: 'ファイルにエクスポート :'
 label.threads.view.configurable.current.thread.on.top:
@@ -623,13 +631,13 @@ message.node.local.variables.debug.info.not.available:
 message.node.local.variables.not.captured:
     text: ローカル変数は合成、ブリッジなどのメソッドでは捕捉されません
 message.node.navigate:
-    text: ...ナビゲート
+    text: '...ナビゲート'
 message.node.object.collected:
     text: オブジェクトは、メソッド呼び出し中にガベージ コレクトされています
 message.node.show.icon:
-    text: ...アイコンを表示
+    text: '...アイコンを表示'
 message.node.show.image:
-    text: ...イメージを表示する
+    text: '...イメージを表示する'
 message.node.thread.has.no.frames:
     text: スレッドにはフレームがありません
 message.node.thread.running:
@@ -641,7 +649,7 @@ method.breakpoints.slowness.warning:
 method.breakpoints.tab.title:
     text: メソッド ブレークポイント
 node.has.descendands.expression.optional:
-    text: '''ノードは子孫を持つ'' の式 (オプション) (&H):'
+    text: "'ノードは子孫を持つ' の式 (オプション) (&H):"
 position.highlighter.stripe.tooltip:
     text: 実行ライン
 progress.evaluating:
@@ -667,19 +675,19 @@ status.breakpoint.invalid:
 status.breakpoint.reached.in.thread:
     text: スレッド{0}に到達したブレークポイント
 status.connect.failed:
-    text: '''''{1}'''' トランスポートを使用する ''''{0}'''' でのターゲット VM への接続を確立できませんでした。'
+    text: "''{1}'' トランスポートを使用する ''{0}'' でのターゲット VM への接続を確立できませんでした。"
 status.connected:
     text: ターゲット VM に接続しました
 status.connecting:
-    text: '''''{1}'''' トランスポートを使用する ''''{0}'''' で接続しています'
+    text: "''{1}'' トランスポートを使用する ''{0}'' で接続しています"
 status.debug.stopped:
     text: デバッグは停止しました
 status.disconnected:
-    text: 'ターゲット VM から切断しました。アドレス : ''''{0}、トランスポート : ''''{1}'''''
+    text: "ターゲット VM から切断しました。アドレス : ''{0}、トランスポート : ''{1}''"
 status.exception.breakpoint.reached:
     text: 例外ブレークポイントに達しました
 status.exception.breakpoint.reached.details:
-    text: スレッド ''{1}'' 内の例外  ''{0}''
+    text: "スレッド ''{1}'' 内の例外  ''{0}''"
 status.field.watchpoint.reached:
     text: フィールドのウォッチポイントに達しました
 status.generic.breakpoint.reached:
@@ -697,11 +705,11 @@ status.invalid.breakpoint.out.of.class:
 status.line.breakpoint.reached:
     text: ブレークポイント {0} に達しました。行 {1,number}
 status.listening:
-    text: '''''{1}'''' トランスポートを使用する ''''{0}'''' での接続を監視しています'
+    text: "''{1}'' トランスポートを使用する ''{0}'' での接続を監視しています"
 status.method.entry.breakpoint.reached:
-    text: メソッド ''{0}'' に入りました
+    text: "メソッド ''{0}'' に入りました"
 status.method.exit.breakpoint.reached:
-    text: メソッド ブレークポイントに達しました。 メソッド ''{0}'' が終了します
+    text: "メソッド ブレークポイントに達しました。 メソッド ''{0}'' が終了します"
 status.paused:
     text: 一時中止
 status.paused.in.another.thread:
@@ -725,7 +733,7 @@ status.stopped.at.cursor:
 status.thread.blocked.by:
     text: スレッド{0}のステッピングはスレッド{1}によってブロックされています
 status.waiting.attach:
-    text: 'デバッガはアプリケーションの開始を待機しています。デバッグ アドレス : ''''{0}''''、トランスポート : ''''{1}'''''
+    text: "デバッガはアプリケーションの開始を待機しています。デバッグ アドレス : ''{0}''、トランスポート : ''{1}''"
 status.waiting.evaluation.result:
     text: 最後のデバッガ コマンドが終了するまで待機しています
 string.file.line.position:
@@ -737,11 +745,11 @@ threads.export.attribute.error.incompatible.state:
 threads.export.attribute.label.blocks.thread:
     text: ブロック {0}
 threads.export.attribute.label.group:
-    text: グループ ''{0}''
+    text: "グループ ''{0}''"
 threads.export.attribute.label.priority:
     text: 優先度={0}
 threads.export.attribute.label.status:
-    text: 'ステータス : ''''{0}'''''
+    text: "ステータス : ''{0}''"
 threads.export.attribute.label.waiting.for.thread:
     text: '{0} を待機'
 threads.export.dialog.title:
@@ -787,7 +795,10 @@ warning.finally.block.detected:
 warning.hotswap.ignored.breakpoints:
     text: ブレークポイントは、以前のバージョンのメソッドでは無視されます
 warning.jdk140.unstable:
-    text: "デバッグする VM バージョンは \"1.4.0\" です。\nJ2SDK 1.4.0 の既知のバグはデバッガの動作を不安定にします。\nJ2SDK 1.4.0_01 またはそれ以上のバージョンを推奨します。"
+    text: |-
+        デバッグする VM バージョンは "1.4.0" です。
+        J2SDK 1.4.0 の既知のバグはデバッガの動作を不安定にします。
+        J2SDK 1.4.0_01 またはそれ以上のバージョンを推奨します。
 warning.range.too.big:
     text: 指定した範囲は大きすぎます {0} に必要なリソースが大きすぎるため、要求された処理は実行できません。 続行してよろしいですか ?
 warning.recalculate:

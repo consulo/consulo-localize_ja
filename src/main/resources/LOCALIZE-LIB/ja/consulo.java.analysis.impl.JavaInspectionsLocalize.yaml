@@ -41,7 +41,7 @@ edit.options.of.reporter.inspection.text:
 error.analysis.is.in.progress:
     text: エラー分析しています
 exports.to.itself.delete.module.ref.fix:
-    text: モジュール '' {0} ''への参照を削除する
+    text: "モジュール '' {0} ''への参照を削除する"
 exports.to.itself.delete.statement.fix:
     text: 文の削除
 group.names.abstraction.issues:
@@ -121,11 +121,11 @@ group.names.visibility.issues:
 illegal.package.dependencies:
     text: 不正なパッケージ依存関係
 inconsistent.bundle.property.inconsistent.end:
-    text: 不一致のプロパティ値end '' {0} ''
+    text: "不一致のプロパティ値end '' {0} ''"
 inconsistent.bundle.property.inconsistent.end.parent.end.from.check.symbols:
-    text: ''''' {0} ''''が見つかりませんでしたが、 '''' {2} ''''の '''' {1} ''''が見つかりません'
+    text: "'' {0} ''が見つかりませんでしたが、 '' {2} ''の '' {1} ''が見つかりません"
 inconsistent.bundle.property.inconsistent.placeholders:
-    text: プレースホルダの数が一貫していません： '' {1} ''に{0}が見つかりました
+    text: "プレースホルダの数が一貫していません： '' {1} ''に{0}が見つかりました"
 inconsistent.bundle.report.inconsistent.properties.ends:
     text: 一貫性のないレポートプロパティ
 inconsistent.bundle.report.inconsistent.properties.placeholders:
@@ -135,7 +135,7 @@ inconsistent.line.separators:
 inspection.1.7.problem.descriptor:
     text: JDK {0}でのコンパイルの問題を引き起こす1.6 API後に生成された使用法
 inspection.1.8.problem.single.descriptor:
-    text: デフォルトのメソッド '' {0} 'はオーバーライドされません。
+    text: "デフォルトのメソッド '' {0} 'はオーバーライドされません。"
 inspection.action.apply.quickfix:
     text: クイックフィックスの適用
 inspection.action.apply.quickfix.description:
@@ -157,7 +157,7 @@ inspection.action.profile.label:
 inspection.action.rerun:
     text: 検査の再実行
 inspection.action.suppress:
-    text: 検査の抑止 '' {0} ''
+    text: "検査の抑止 '' {0} ''"
 inspection.action.title:
     text: 検査
 inspection.actiongo.prev:
@@ -165,7 +165,7 @@ inspection.actiongo.prev:
 inspection.annotate.method.quickfix.family.name:
     text: アノテーションメソッド
 inspection.application.chosen.profile.log.message:
-    text: プロファイル '' {0} 'を使って検査しています
+    text: "プロファイル '' {0} 'を使って検査しています"
 inspection.application.directory.cannot.be.found:
     text: ディレクトリ {0} が見つかりません
 inspection.application.file.cannot.be.found:
@@ -177,7 +177,7 @@ inspection.application.opening.project:
 inspection.application.starting.up:
     text: 開始しています...
 inspection.assert.quickfix:
-    text: '''''{0}'''' のアサート'
+    text: "''{0}'' のアサート"
 inspection.can.be.final.display.name:
     text: 宣言は final 修飾子を持てます
 inspection.can.be.final.option:
@@ -283,15 +283,17 @@ inspection.dead.code.remove.user.defined.entry.point.quickfix:
 inspection.dead.code.safe.delete.quickfix:
     text: セーフ デリート
 inspection.dead.code.start.comment:
-    text: "// --検査 START ({0}) によりコメント アウト\n"
+    text: |
+        // --検査 START ({0}) によりコメント アウト
 inspection.dead.code.stop.comment:
-    text: "// --検査 STOP ({0}) によりコメント アウト\n"
+    text: |
+        // --検査 STOP ({0}) によりコメント アウト
 inspection.default.annotation.param:
     text: デフォルトの注釈パラメータ値
 inspection.dependency.configure.button.text:
     text: 依存関係ルールの設定
 inspection.dependency.violator.problem.descriptor:
-    text: 依存関係ルール ''{0}.'' に違反しています
+    text: "依存関係ルール ''{0}.'' に違反しています"
 inspection.deprecated.display.name:
     text: 非推奨 API の使用方法
 inspection.description.title:
@@ -309,13 +311,13 @@ inspection.duplicates.message:
 inspection.duplicates.message.in.this.file:
     text: (このファイル内)
 inspection.duplicates.message.more:
-    text: ... ({0} 以上)
+    text: '... ({0} 以上)'
 inspection.duplicates.option:
     text: '最小文字列長(&M):'
 inspection.duplicates.replace.family.quickfix:
     text: 置換
 inspection.duplicates.replace.quickfix:
-    text: '''''{0}'''' で置換する'
+    text: "''{0}'' で置換する"
 inspection.empty.method.delete.quickfix:
     text: 不要なメソッドを削除する
 inspection.empty.method.display.name:
@@ -331,9 +333,9 @@ inspection.empty.method.problem.descriptor4:
 inspection.equals.hashcode.display.name:
     text: equals() と hashCode() が組になっていません
 inspection.equals.hashcode.generate.equals.quickfix:
-    text: '''equals（）''を生成する'
+    text: "'equals（）'を生成する"
 inspection.equals.hashcode.generate.hashcode.quickfix:
-    text: '''hashCode（）''を生成する'
+    text: "'hashCode（）'を生成する"
 inspection.equals.hashcode.only.one.defined.problem.descriptor:
     text: クラスでは {0} が定義されていますが {1} が定義されていません
 inspection.error.level.popup.menu.title:
@@ -343,7 +345,7 @@ inspection.error.loading.message:
 inspection.excessive.lambda.fix.family.name:
     text: ラムダを定数で置き換える
 inspection.excessive.lambda.fix.name:
-    text: ラムダなしで '' {0} ''メソッドを使用する
+    text: "ラムダなしで '' {0} ''メソッドを使用する"
 inspection.excessive.lambda.message:
     text: 過度のラムダ使用
 inspection.export.dialog.title:
@@ -443,7 +445,7 @@ inspection.invalid.node.text:
 inspection.java.module.naming:
     text: Javaモジュールの命名規則
 inspection.java.module.naming.terminal.digits:
-    text: モジュール名 '' {0} ''は端末の数字を避けるべきです
+    text: "モジュール名 '' {0} ''は端末の数字を避けるべきです"
 inspection.javadoc.dialog.title:
     text: 追加の JavaDoc タグの編集
 inspection.javadoc.display.name:
@@ -469,11 +471,11 @@ inspection.javadoc.problem.descriptor:
 inspection.javadoc.problem.descriptor1:
     text: ドキュメントにピリオドがありません。 ピリオドは javadoc tool により使用され、概要ページのコメントを生成します。
 inspection.javadoc.problem.duplicate.param:
-    text: パラメータ ''{0}'' の @param タグの重複
+    text: "パラメータ ''{0}'' の @param タグの重複"
 inspection.javadoc.problem.duplicate.tag:
     text: '@{0} タグの重複'
 inspection.javadoc.problem.duplicate.throws:
-    text: 例外 ''{0}'' の @throws または @exception タグの重複
+    text: "例外 ''{0}'' の @throws または @exception タグの重複"
 inspection.javadoc.problem.missing.tag.description:
     text: '@ {1}タグの後に{0}がありません'
 inspection.javadoc.problem.see.tag.expecting.ref:
@@ -485,9 +487,9 @@ inspection.javadoc.throws.or.exception.option:
 inspection.lambda.to.method.call.fix.family.name:
     text: ラムダ式をメソッド呼び出しで置き換える
 inspection.lambda.to.method.call.fix.name:
-    text: ラムダ式を '' {0} ''に置き換えます
+    text: "ラムダ式を '' {0} ''に置き換えます"
 inspection.lambda.to.method.call.message:
-    text: ''''' {0} ''''に置き換えることができます'
+    text: "'' {0} ''に置き換えることができます"
 inspection.local.can.be.final.display.name:
     text: ローカル変数またはパラメータは final にできます。
 inspection.local.can.be.final.option:
@@ -501,7 +503,7 @@ inspection.local.can.be.final.option3:
 inspection.map.foreach.fix.name:
     text: Map.forEachで置き換える
 inspection.map.foreach.message:
-    text: '''Map.forEach''で置き換えることができます'
+    text: "'Map.forEach'で置き換えることができます"
 inspection.map.foreach.option.no.loops:
     text: ループを報告しない
 inspection.module.exports.package.to.itself:
@@ -519,7 +521,7 @@ inspection.nullable.problems.display.name:
 inspection.offline.view.tool.display.name.title:
     text: 名前
 inspection.options.action.text:
-    text: '''''{0}'''' オプションの検査'
+    text: "''{0}'' オプションの検査"
 inspection.problem.resolution:
     text: 問題の解決
 inspection.problem.synopsis:
@@ -557,29 +559,29 @@ inspection.redundant.cast.problem.descriptor:
 inspection.redundant.cast.remove.quickfix:
     text: 冗長なキャストの削除
 inspection.redundant.requires.statement.description:
-    text: 冗長なステートメント ''が必要です{0} ''
+    text: "冗長なステートメント ''が必要です{0} ''"
 inspection.redundant.requires.statement.fix.family:
     text: 冗長な「要求」ステートメントを削除する
 inspection.redundant.requires.statement.fix.name:
-    text: 削除ステートメント ''が必要です{0} ''
+    text: "削除ステートメント ''が必要です{0} ''"
 inspection.redundant.requires.statement.name:
-    text: module-infoに冗長な 'requires'ステートメント
+    text: "module-infoに冗長な 'requires'ステートメント"
 inspection.redundant.stream.optional.call.explanation.distinct:
     text: チェーンにはすでに「別個の」呼び出しがありました
 inspection.redundant.stream.optional.call.explanation.filter:
     text: 述語は常に真です
 inspection.redundant.stream.optional.call.explanation.parallel:
-    text: この呼び出しをオーバーライドする後続の '' {0} ''呼び出しがあります
+    text: "この呼び出しをオーバーライドする後続の '' {0} ''呼び出しがあります"
 inspection.redundant.stream.optional.call.explanation.sorted:
-    text: 後続の '' {0} ''コールが役に立たないソートを行います
+    text: "後続の '' {0} ''コールが役に立たないソートを行います"
 inspection.redundant.stream.optional.call.explanation.unordered:
     text: チェーンにはすでに「順序付けられていない」呼び出しがあった
 inspection.redundant.stream.optional.call.fix.family.name:
     text: 重複チェーンコールを削除
 inspection.redundant.stream.optional.call.fix.name:
-    text: ''''' {0} ''''通話を削除する'
+    text: "'' {0} ''通話を削除する"
 inspection.redundant.stream.optional.call.message:
-    text: 冗長な '' {0} ''呼び出し
+    text: "冗長な '' {0} ''呼び出し"
 inspection.redundant.stream.optional.call.option.streamboxing:
     text: Stream.mapで無駄なボクシングを報告
 inspection.redundant.throws.problem.descriptor:
@@ -611,27 +613,27 @@ inspection.replace.loop.with.arrays.setall.message:
 inspection.replace.with.bulk.fix.family.name:
     text: バルクメソッド呼び出しで置き換える
 inspection.replace.with.bulk.fix.name:
-    text: 繰り返しをバルクの '' {0} ''呼び出しで置き換える
+    text: "繰り返しをバルクの '' {0} ''呼び出しで置き換える"
 inspection.replace.with.bulk.message:
-    text: 反復は一括 '' {0} ''呼び出しで置き換えることができます
+    text: "反復は一括 '' {0} ''呼び出しで置き換えることができます"
 inspection.replace.with.bulk.wrap.arrays:
     text: Arrays.asList（）を使用して配列をラップする
 inspection.results.for.inspection.toolwindow.title:
-    text: ''''' {0} '''' {1}の検査'
+    text: "'' {0} '' {1}の検査"
 inspection.return.separated.from.computation.descriptor:
-    text: ''''' {0} ''''の値の計算から分離した戻り値'
+    text: "'' {0} ''の値の計算から分離した戻り値"
 inspection.return.separated.from.computation.family.quickfix:
     text: 結果の計算に「戻る」を近づける
 inspection.return.separated.from.computation.name:
     text: 結果の計算から分離したリターン
 inspection.return.separated.from.computation.quickfix:
-    text: ''''' {0} ''の値の計算に近づける'' ''return'' '''
+    text: "'' {0} 'の値の計算に近づける' 'return' '"
 inspection.same.parameter.display.name:
     text: 実際のメソッド パラメータは同じ定数です
 inspection.same.parameter.fix.family.name:
     text: 定数値としてのインラインパラメータ
 inspection.same.parameter.problem.descriptor:
-    text: 実際のパラメータ ''{0}'' の値は常に ''{1}'' です。
+    text: "実際のパラメータ ''{0}'' の値は常に ''{1}'' です。"
 inspection.same.return.value.display.name:
     text: メソッドは同じ値を返します
 inspection.same.return.value.problem.descriptor:
@@ -649,13 +651,13 @@ inspection.severity:
 inspection.simplify.collector.fix.family.name:
     text: カスケードコレクタの簡略化
 inspection.simplify.collector.fix.name:
-    text: コレクター。{0} ''コレクターを使用する
+    text: "コレクター。{0} ''コレクターを使用する"
 inspection.simplify.collector.message:
-    text: ''''' {0} ''''コレクターを使用して簡略化できます'
+    text: "'' {0} ''コレクターを使用して簡略化できます"
 inspection.suspicious.collections.method.calls.display.name:
     text: 疑わしいコレクション メソッド呼び出し
 inspection.suspicious.collections.method.calls.problem.descriptor1:
-    text: 疑わしい ''{0}'' への呼び出し
+    text: "疑わしい ''{0}'' への呼び出し"
 inspection.test.only.problems.test.only.class.reference:
     text: テスト専用クラスは実動コードで参照されています
 inspection.test.only.problems.test.only.field.reference:
@@ -669,11 +671,11 @@ inspection.tool.description.under.construction.text:
 inspection.tool.in.browser.description.title:
     text: 説明
 inspection.tool.window.dialog.no.options:
-    text: 検査 '' {0} ''には設定可能なオプションはありません
+    text: "検査 '' {0} ''には設定可能なオプションはありません"
 inspection.tool.window.dialog.title:
     text: 検査ツールウィンドウ
 inspection.tool.window.inspection.dialog.title:
-    text: 検査 '' {0} ''のオプション
+    text: "検査 '' {0} ''のオプション"
 inspection.tools.action.show.global.inspections.description:
     text: グローバル検査設定の表示
 inspection.tools.action.show.global.inspections.text:
@@ -683,7 +685,7 @@ inspection.tree.popup.title:
 inspection.unable.to.create.profile.dialog.title:
     text: プロファイルを作成できません
 inspection.unable.to.create.profile.message:
-    text: 検査プロファイル ''{0}'' は既に存在します
+    text: "検査プロファイル ''{0}'' は既に存在します"
 inspection.unused.assignment.display.name:
     text: 使用しない代入
 inspection.unused.assignment.option:
@@ -731,15 +733,15 @@ inspection.visibility.option2:
 long.line.display.name:
     text: 行がコードスタイルで許可されている長さよりも長い
 module.not.in.requirements:
-    text: モジュール '' {0} ''は要件のモジュール '' {1} ''を持っていません
+    text: "モジュール '' {0} ''は要件のモジュール '' {1} ''を持っていません"
 module.package.not.exported:
-    text: モジュール '' {0} ''はパッケージ '' {1} ''をモジュール '' {2} ''にエクスポートしません
+    text: "モジュール '' {0} ''はパッケージ '' {1} ''をモジュール '' {2} ''にエクスポートしません"
 no.errors.found.in.this.file:
     text: このファイルにエラーはありません
 nullable.stuff.inspection.navigate.null.argument.usages.fix.family.name:
-    text: '''null''引数の使用にナビゲートする'
+    text: "'null'引数の使用にナビゲートする"
 nullable.stuff.inspection.navigate.null.argument.usages.view.name:
-    text: パラメータ '{0}'の 'null'引数の使用方法
+    text: "パラメータ '{0}'の 'null'引数の使用方法"
 preparing.for.apply.fix:
     text: 修正を適用する準備をしています...
 problematic.whitespace.display.name:
@@ -747,33 +749,33 @@ problematic.whitespace.display.name:
 problematic.whitespace.show.whitespaces.quickfix:
     text: エディタで空白の表示を切り替える
 problematic.whitespace.spaces.problem.descriptor:
-    text: ファイル '' {0} ''はインデントにスペースを使用します
+    text: "ファイル '' {0} ''はインデントにスペースを使用します"
 problematic.whitespace.tabs.problem.descriptor:
-    text: ファイル '' {0} ''はインデント用のタブを使用します
+    text: "ファイル '' {0} ''はインデント用のタブを使用します"
 suppress.all.for.class:
     text: クラスのすべての検査を抑止
 suppress.inspection.annotation.syntax.error:
     text: '不正な注釈構文 : {0}'
 suppress.inspection.class:
-    text: クラスの ''{0}'' の抑止
+    text: "クラスの ''{0}'' の抑止"
 suppress.inspection.family:
     text: 検査の抑止
 suppress.inspection.field:
-    text: フィールドの ''{0}'' の抑止
+    text: "フィールドの ''{0}'' の抑止"
 suppress.inspection.member:
     text: メンバーを非表示にする
 suppress.inspection.method:
-    text: メソッドの ''{0}'' の抑止
+    text: "メソッドの ''{0}'' の抑止"
 suppress.inspection.statement:
-    text: ステートメントの ''{0}'' の抑止
+    text: "ステートメントの ''{0}'' の抑止"
 todo.comment.display.name:
     text: TODOコメント
 unchecked.warning:
     text: 未チェックの警告
 unnecessary.module.dependency.exported.problem.descriptor:
-    text: モジュール '' {0} ''は '' {1} ''に依存しません。
+    text: "モジュール '' {0} ''は '' {1} ''に依存しません。"
 unnecessary.module.dependency.exported.problem.descriptor1:
-    text: モジュール '' {0} ''は '' {1} ''に依存しません。
+    text: "モジュール '' {0} ''は '' {1} ''に依存しません。"
 unused.import.statement:
     text: 未使用の import 文
 unused.symbol:

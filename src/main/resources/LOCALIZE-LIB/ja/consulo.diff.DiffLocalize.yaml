@@ -87,7 +87,9 @@ files.are.identical.dialog.title:
 ignore.whitespace.acton.name:
     text: 空白を無視する：
 merge.all.changes.have.processed.save.and.finish.confirmation.text:
-    text: "すべての変更を処理しました。\n変更を保存してマージ処理を終了しますか ?"
+    text: |-
+        すべての変更を処理しました。
+        変更を保存してマージ処理を終了しますか ?
 merge.color.options.background.color.label:
     text: '背景色(&C):'
 merge.color.options.dialog.title:

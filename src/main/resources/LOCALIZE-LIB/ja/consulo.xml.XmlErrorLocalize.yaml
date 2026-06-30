@@ -11,7 +11,7 @@ attribute.value.expected:
 cannot.resolve.taglib.uri:
     text: uri {0} で taglib を解決できません
 cdata.end.should.not.appear.in.content.unless.to.mark.end.of.cdata.section:
-    text: 文字シーケンス']]>' はCDATAセクションの終わりに使用するため、内容に現れてはいけません
+    text: "文字シーケンス']]>' はCDATAセクションの終わりに使用するため、内容に現れてはいけません"
 create.namespace.declaration.quickfix:
     text: '{0}の宣言を作成します'
 create.tagfile.attribute.family:
@@ -37,9 +37,9 @@ empty.attribute.is.not.allowed:
 escape.ampersand.quickfix:
     text: エスケープ アンパサンド
 expected.attribute.eq.sign:
-    text: '''='' が必要です'
+    text: "'=' が必要です"
 expected.prologue.tag.termination.expected:
-    text: '''?>'' が必要です'
+    text: "'?>' が必要です"
 expected.whitespace:
     text: 空白が必要です
 extra.closing.tag.for.empty.element:
@@ -87,13 +87,13 @@ tag.start.is.not.closed:
 top.level.element.is.not.completed:
     text: トップ レベルの要素が完了していません
 unbound.namespace:
-    text: 名前空間 ''{0}'' はバインドされていません
+    text: "名前空間 ''{0}'' はバインドされていません"
 unbound.namespace.no.param:
     text: 名前空間がバインドされていません
 unescaped.ampersand.or.nonterminated.character.entity.reference:
     text: エスケープしていない \& または終了していない文字/エントリ参照
 unknown.encoding.0:
-    text: '不明なエンコード: ''''{0}'''''
+    text: "不明なエンコード: ''{0}''"
 unknown.html.tag:
     text: 不明な html タグ {0}
 uri.is.not.registered:

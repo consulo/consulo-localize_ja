@@ -1,4 +1,4 @@
 cannot.resolve.method:
-    text: メソッド '' {0} 'を解決できません
+    text: "メソッド '' {0} 'を解決できません"
 interface.not.allowed:
     text: 使用できないインタフェース
